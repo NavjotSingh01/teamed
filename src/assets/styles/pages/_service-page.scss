@@ -1,0 +1,113 @@
+.office-home-left {
+  padding-top: 0;
+  @media (max-width: 1199px) {
+    padding-top: 0;
+  }
+}
+.content-wrapper {
+  &.office-home-right {
+    padding-top: 0;
+    @media (min-width: 1200px) {
+      padding-left: 140px;
+    }
+    @media (max-width: 767px) {
+      padding-left: 0;
+    }
+    .row {
+      justify-content: left;
+      .box-wrapper {
+        padding: 30px;
+        @media (max-width: 767px) {
+          padding: 20px;
+        }
+        .office-home-info-right {
+          max-width: 100%;
+          .office-icons {
+            height: 72px;
+            line-height: 72px;
+            width: 72px;
+            @media (max-width: 767px) {
+              height: 60px;
+              width: 60px;
+              line-height: 60px;
+            }
+          }
+          .office-home-info {
+            h2 {
+              color: #343642;
+              font-size: 36px;
+              line-height: 38px;
+              letter-spacing: -0.9px;
+              margin: 0 0 0px 0;
+              font-family: "EuclidFlexMedium";
+              @media (max-width: 767px) {
+                font-size: 28px;
+                line-height: 28px;
+                margin: 0;
+              }
+              @media (max-width: 374px) {
+                font-size: 20px;
+                line-height: 24px;
+              }
+            }
+            p {
+              max-width: 100% !important;
+              font-size: 19px;
+              line-height: 23px;
+              letter-spacing: -0.25px;
+              font-weight: 500;
+              margin-top: 12px;
+              @media (max-width: 767px) {
+                margin-top: 8px;
+                font-size: 14px;
+                line-height: 16px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+button.covid-19-button {
+  padding-top: 31px;
+  margin-bottom: 11px;
+  padding-bottom: 31px;
+  @media (max-width: 767px) {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+// button.covid-19-button {
+//   margin-bottom: 0;
+//   display: flex;
+//   color: #fff !important;
+//   justify-content: space-between;
+//   text-align: left;
+//   @media (max-width: 767px) {
+//     font-size: 20px;
+//     line-height: 22px;
+//   }
+//   &.first {
+//     border-bottom-left-radius: 0;
+//     border-bottom-right-radius: 0;
+//   }
+//   &.second {
+//     border-radius: 0;
+//   }
+//   &.last {
+//     border-top-left-radius: 0;
+//     border-top-right-radius: 0;
+//   }
+// }
+.main-bg-sectoin.desktop-page .office-home-main h1 {
+  @media (max-width: 767px) {
+    text-align: center;
+    max-width: 100% !important;
+  }
+}
+.main-bg-sectoin.less-space {
+  @media (min-width: 1200px) {
+    padding-top: 120px;
+  }
+}

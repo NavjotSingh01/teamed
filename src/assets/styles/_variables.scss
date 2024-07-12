@@ -1,0 +1,19 @@
+/* Font family */
+$font_family_primary: 'Proxima Soft', 'Open Sans', Helvetica, Arial, sans-serif;
+$font_family_secondary: 'Euclid Flex', 'Open Sans', Helvetica, Arial, sans-serif;
+
+/* Colors */
+
+$text_color_primary: #343642;
+$color_black: #000000;
+$color_white: #ffffff;
+
+$color_grey: #73799f;
+$color_light_grey: #d1d4e3;
+$color_blue: #38417c;
+
+$border_primary_light: 1px solid $color_light_grey;
+$border_primary_middle: 2px solid $color_light_grey;
+$border_primary_thick: 3px solid $color_light_grey;
+$box_shadow_primary: 0px 0px 12px rgba(56, 65, 124, 0.2);
+$transition_primary: 250ms;

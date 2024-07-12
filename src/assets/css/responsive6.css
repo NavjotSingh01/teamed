@@ -1,0 +1,2490 @@
+@media (min-width: 1250px) {
+  .container {
+    max-width: 1230px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1366px) {
+  /*v-4*/
+  .primary-btn {
+    height: 65px;
+  }
+  .meet-form {
+    padding: 15px 20px 15px 20px;
+  }
+  .fild-row .selected a {
+    padding: 19px 15px;
+  }
+  .video-bg .meet-form {
+    margin-top: 20px;
+  }
+  .call-options-main {
+    bottom: 20px;
+  }
+  .form-label-group > input,
+  .form-label-group > label {
+    height: 56px;
+    padding: 15px 15px;
+  }
+  .options ul {
+    height: 173px;
+    overflow: auto;
+  }
+  .version4 .fild-row .selected a {
+    padding: 11px 15px;
+  }
+  .meet-form .primary-btn {
+    height: 50px;
+  }
+}
+
+@media (max-width: 1600px) {
+  .man-img {
+    max-width: 350px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .man-img.big-corner-img {
+    max-width: 650px;
+  }
+  .circle-img-wrppaer.full-oval .circle-yellow {
+    max-width: 160px;
+  }
+
+  /*v3*/
+  .appointment-rght {
+    padding-left: 100px;
+  }
+  .man-img.big-corner-img {
+    max-width: 500px;
+  }
+  .myOffice-page .accordion .card-body .btns .btn {
+    padding: 6px 20px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  /*v-2*/
+  .inbox-right {
+    padding-left: 50px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .main-calender {
+    flex-direction: column;
+  }
+  .content-wrapper.office-home-right {
+    padding-left: 30px;
+  }
+  .second .time-list > div {
+    margin-left: 0;
+  }
+  .second .time-list {
+    width: 100%;
+  }
+  .who-visited h1 {
+    font-size: 42px;
+    line-height: 44px;
+  }
+  .cancel-wrapper {
+    display: block;
+  }
+  .inbox-page-main .cancel-wrapper {
+    text-align: left !important;
+  }
+  h1 {
+    font-size: 55px;
+    line-height: 55px;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  /*.main-bg-sectoin {
+		text-align: center;
+	}*/
+  /* .main-bg-sectoin .register-form form {
+		margin-top: 55px;
+	} */
+  p.mobile-p {
+    display: block;
+    margin-top: 10px;
+  }
+  p.desktop-p {
+    display: none;
+  }
+  .menu_wrapper .drop-down .options ul {
+    max-width: 100px;
+  }
+  .menu_wrapper .drop-down .options ul {
+    margin-top: 15px;
+  }
+  .menu_wrapper .drop-down {
+    top: 3%;
+  }
+  .primary-btn {
+    margin: 0 auto;
+    margin-bottom: 25px;
+  }
+  .inner-desktop-content {
+    display: block;
+  }
+  .goodmorning-text {
+    max-width: 100%;
+  }
+  .content-wrapper {
+    padding-left: 0;
+    margin-right: 0;
+  }
+  .box-wrapper {
+    text-align: left;
+  }
+  .main-bg-sectoin .desktop-page h2 {
+    margin-bottom: 80px;
+  }
+  .main-bg-sectoin .desktop-page h1 {
+    margin-bottom: 30px;
+  }
+  .register-form .fild-row {
+    text-align: left;
+  }
+  .goodmorning-text h2 {
+    max-width: 100%;
+  }
+  .goodmorning-text h1 {
+    text-align: center;
+  }
+  .content-wrapper .row.content-row {
+    width: 100%;
+    margin: 0;
+  }
+  .landing-content h1 {
+    text-align: center;
+  }
+  .main-bg-sectoin.add-office-page {
+    text-align: left;
+  }
+  .main-bg-sectoin.add-office-page h1 {
+    text-align: left;
+  }
+  .circle-img-wrppaer.add-office-code-circle {
+    top: 110px;
+  }
+  .office-home-left .box-img {
+    margin: 0 auto 22px;
+  }
+  .office-home-left {
+    max-width: 100%;
+  }
+  .office-home-main h1 {
+    text-align: left;
+  }
+  .office-info {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 40px;
+  }
+  .content-wrapper.office-home-right {
+    padding-top: 30px;
+  }
+  .office-home-right .box-wrapper {
+    padding: 44px 45px 48px 45px;
+  }
+  .office-home-main {
+    padding-bottom: 40px;
+  }
+  .triage-app-left {
+    margin: 0 auto;
+  }
+  .content-wrapper.triage-app-right {
+    padding: 40px 0 0 0;
+    margin: 0 auto;
+  }
+  .walkin-appointment .primary-btn {
+    margin-bottom: 0;
+  }
+  .appointment-box {
+    min-height: auto;
+  }
+  .next-step.text-right {
+    text-align: center !important;
+    margin-top: 40px;
+  }
+  .triage-symptoms-page .office-home-main h1 {
+    margin-bottom: 35px;
+  }
+  .triage-symptoms-page .office-home-main h2 {
+    margin-bottom: 5px;
+  }
+  .triage-details-left {
+    margin: 0 auto;
+  }
+  .triage-details-main h1 {
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  .triage-details-main h1 {
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  .triage-details-main h2 {
+    margin-bottom: 0;
+  }
+  .account-sign-register {
+    text-align: left;
+  }
+  .content-wrapper.list-desktop-right {
+    padding-left: 0;
+    text-align: left;
+  }
+  .modal-content {
+    text-align: left;
+  }
+  .content-wrapper.list-desktop-right {
+    padding-top: 20px;
+  }
+  .list-dotors-right .primary-btn {
+    margin-bottom: 0;
+  }
+  .waiting-room-left {
+    margin: 0 auto;
+    max-width: 350px;
+  }
+  .waiting-room-left .box-img {
+    margin: 0 auto;
+  }
+  .waiting-room-right-main {
+    padding: 0;
+  }
+  .waiting-room-left h2 br {
+    display: none;
+  }
+  .waiting-room-left h1 {
+    text-align: center;
+  }
+  .waiting-room-left h2 {
+    margin-bottom: 20px;
+  }
+  .waiting-room-right-main {
+    padding: 30px 0 0 0;
+  }
+  .waiting-room-left .primary-btn {
+    margin-top: 40px;
+  }
+  .man-img {
+    max-width: 250px;
+  }
+  .waiting-content {
+    text-align: left;
+  }
+  .incall-chat .chat-text-main {
+    max-height: 240px;
+    overflow: auto;
+  }
+  .waiting-content {
+    padding: 30px;
+  }
+  .incall-chat.waiting-content {
+    padding: 15px;
+  }
+  .incall-chat .chat-text {
+    margin-bottom: 15px;
+  }
+  .incall-chat .chat-text-main {
+    max-height: 265px;
+    overflow: auto;
+    padding: 15px 15px 60px 15px;
+  }
+  .incall-chat .type-msg {
+    width: calc(100% - 60px);
+    left: 32px;
+  }
+  .type-msg form input::placeholder {
+    font-size: 17px;
+  }
+  /*v-2*/
+  .inbox-page-main .cancel-wrapper {
+    text-align: center;
+  }
+  .cancel-wrapper {
+    margin-bottom: ;
+  }
+  .inbox-right {
+    text-align: left;
+    padding: 40px 30px 40px 0;
+  }
+  .inbox-page-main .cancel-wrapper + h1 {
+    text-align: center;
+  }
+  .new-msg-btn .primary-btn {
+    max-width: 100%;
+  }
+  .myOffice-page {
+    text-align: left;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .office-home-left {
+    min-width: auto;
+  }
+  .main-bg-sectoin .main {
+    padding-left: 0;
+  }
+  .appointment-rght {
+    padding-left: 15px;
+  }
+  .left-col-app h3 br {
+    display: none;
+  }
+  .left-col-app {
+    max-width: 100%;
+  }
+  .remove-app {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 85px;
+  }
+  .left-col-app.declined-appointment {
+    height: calc(100vh - 180px);
+  }
+  .enter-waiting-room-btn.primary-btn {
+    max-width: 288px;
+    margin: 30px auto 0;
+  }
+  .reschedule-btns li a {
+    margin-bottom: 0;
+  }
+  .reschedule-btns {
+    right: 0;
+  }
+  .confirmed-appointment {
+    height: calc(100vh - 177px);
+  }
+  .triage-video-chat h1 {
+    max-width: 520px;
+    margin: 0 auto;
+  }
+  .triage-video-chat h2 {
+    max-width: 470px;
+    margin: 40px auto 0;
+  }
+  .triage-video-chat h2 br {
+    display: none;
+  }
+  .triage-confirmation-page .cancel-wrapper {
+    text-align: left;
+    display: block;
+  }
+  .triage-confirmation-page h2 {
+    text-align: left;
+  }
+  .view-app.primary-btn {
+    margin: -15px 0 0 0;
+  }
+  .bulletin-post-main {
+    text-align: left;
+  }
+  /*v-4*/
+  .meet-form-main {
+    text-align: left;
+  }
+  .primary-btn {
+    margin-bottom: 0;
+  }
+  .call-left {
+    width: 65%;
+  }
+  .call-right {
+    width: 35%;
+  }
+  .caller-main {
+    right: 100px;
+  }
+  .caller-main > img {
+    max-width: 85px;
+  }
+  .caller-main {
+    bottom: 15px;
+  }
+  .edit-profile-page {
+    text-align: left;
+  }
+}
+@media screen and (max-width: 991px) {
+  .screening.selection.c-space {
+    margin-top: 50px;
+  }
+  .common-step.profile h2 {
+    font-size: 36px;
+  }
+  .map-frame {
+    width: 100vw;
+  }
+  .c-space {
+    margin-top: 60px;
+  }
+  .first-step {
+    overflow-y: hidden;
+  }
+  .find-covid .content-wrapper {
+    padding-left: 0px;
+    padding-top: 7px;
+  }
+  .appointment-confirm .address {
+    flex-direction: column;
+  }
+  .appointment-confirm .address .map-frame {
+    height: 286px;
+    width: 100vw;
+  }
+  .appointment-confirm {
+    padding-top: 64px !important;
+    padding-bottom: 0 !important;
+    margin-bottom: 17px !important;
+  }
+  .appointment-confirm .title p {
+    font-size: 20px;
+    line-height: 23px;
+  }
+  .appointment-confirm .address {
+    margin-top: 65px;
+  }
+  .appointment-confirm .add-details {
+    max-width: 365px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0px 20px;
+  }
+  .appointment-confirm .add-details h3 {
+    margin-top: 31px;
+    text-align: center;
+  }
+  .appointment-confirm .add-details h2 {
+    margin: 0 auto 28px auto;
+    text-align: center;
+  }
+  .screening > div {
+    flex-direction: column;
+  }
+  .s-toms h2 {
+    max-width: 300px;
+  }
+  .screening textarea {
+    height: 130px;
+    margin-bottom: 195px;
+  }
+  .common-step h2 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .profile .note {
+    position: relative;
+    bottom: -5px;
+  }
+  .profile h2 {
+    margin-top: 30px;
+  }
+  .second .time-list h4 {
+    margin-top: 30px;
+  }
+  .wizard > .actions > ul > li > a[href="#finish"] {
+    padding: 10px 25px 10px 25px;
+  }
+  .main-bg-sectoin.search-page {
+    align-items: flex-start;
+    padding: 62px 0px 0px;
+  }
+  .time-list > div:nth-child(2) {
+    margin-right: 0;
+  }
+  .d-only {
+    display: none !important;
+  }
+  .selection.screening h2 {
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: -0.25px;
+  }
+  .selection.screening .radio-grp label {
+    width: 164px;
+  }
+  .selection.screening > div {
+    flex-direction: row;
+  }
+  .m-only {
+    display: block;
+  }
+  .wizard > .actions > ul > li > a[href="#previous"] {
+    padding: 10px 25px 10px 35px;
+    font-size: 20px;
+    line-height: 23px;
+  }
+  .wizard > .actions {
+    padding: 76px 0px 22px 0px;
+  }
+  .wizard > .actions > ul > li > a {
+    padding: 10px 35px 10px 25px;
+    font-size: 20px;
+    line-height: 23px;
+  }
+  .common-step .right-side {
+    width: 100%;
+    padding-left: 0;
+    margin-top: 25px;
+  }
+  .wizard > .steps > ul > li a {
+    font-size: 0px;
+  }
+  .wizard > .steps .number {
+    opacity: 0;
+  }
+  .wizard > .steps > ul > li:before,
+  .wizard > .steps > ul > li:after {
+    height: 6px;
+  }
+  .wizard > .actions:after {
+    content: none;
+  }
+  .wizard > .steps > ul > li a {
+    padding-top: 0px;
+    margin-bottom: 0px;
+  }
+  .wizard > .steps {
+    bottom: 113px;
+  }
+  .wizard {
+    padding-bottom: 0px;
+  }
+  .common-step {
+    display: flex;
+    flex-direction: column;
+  }
+  .wizard > .content > .body {
+    padding: 0px;
+  }
+  .map-frame {
+    height: 171px;
+  }
+  .tra-waiting .appointment-box h2 {
+    margin-bottom: 60px !important;
+    max-width: 300px;
+  }
+
+  .who-visited h1 {
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .bullet-spac {
+    margin-top: 40px;
+  }
+  .tra-waiting .appointment-box h2 {
+    text-align: left;
+  }
+  .who-visited h1 {
+    margin-bottom: 40px;
+  }
+  .registration-page .img-wrppaer.full-img {
+    display: block !important;
+    position: relative !important;
+  }
+  .registration-page .img-wrppaer.full-img img {
+    display: block !important;
+    margin-left: auto;
+  }
+
+  .main-bg-sectoin h1 {
+    text-align: center;
+    max-width: 380px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    font-size: 42px !important;
+    line-height: 44px !important;
+  }
+  .name-designation {
+    text-align: center !important;
+    margin: auto !important;
+    padding-left: 0px !important;
+  }
+  .account-sign-register {
+    text-align: center;
+  }
+  .menu_wrapper .drop-down {
+    top: 4%;
+  }
+  .img-wrppaer.full-img {
+    /* position: initial;
+		margin-top: 80px; */
+    z-index: -1;
+  }
+  .register-form {
+    max-width: 336px;
+    margin: 30px auto 0;
+  }
+  .main-bg-sectoin {
+    padding: 92px 0 0 0;
+    height: calc(100vh - 89px);
+  }
+  .main-bg-sectoin .col-lg-4 {
+    padding-right: 15px;
+  }
+  .goodmorning-text h1 {
+    max-width: 400px;
+    margin: 0 auto 26px;
+  }
+  .circle-img-wrppaer {
+    right: -25px;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  .landing-content.main-bg-sectoin h1 {
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .main-bg-sectoin.add-office-page {
+    text-align: center;
+  }
+  .main-bg-sectoin.add-office-page h1 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .add-office-form {
+    display: inline-block;
+    margin: 50px 0 0 0;
+    vertical-align: middle;
+  }
+  .add-new-office-main p {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 23px;
+    color: rgba(56, 65, 124, 0.7);
+  }
+  .main-bg-sectoin.add-office-page a.secondary-btn {
+    margin: 22px 0 0 0;
+    width: 100%;
+    min-width: 285px;
+  }
+  .add-office-form .form-control::placeholder,
+  .add-office-form .form-control {
+    color: #73799f;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 20px;
+  }
+  .content-wrapper.triage-app-right {
+    max-width: 455px;
+  }
+  .symptoms-listing {
+    width: 100%;
+    padding: 20px 0 0 0;
+  }
+  .symptoms-listing:first-child {
+    padding-top: 0;
+  }
+  .triage-details-main h1 {
+    max-width: 300px;
+    margin: 0 auto 35px;
+  }
+  .triage-details-main .triage-details-left {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .triage-details-main h2 {
+    margin-bottom: 0;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  .doctor-list-left .cancel-wrapper {
+    margin-bottom: 20px;
+  }
+  .content-wrapper.list-desktop-right {
+    padding-top: 10px;
+  }
+  .accordion {
+    padding: 15px 0;
+  }
+  .waiting-main-img {
+    width: 43%;
+  }
+  .waiting-content {
+    width: 57%;
+  }
+  .chat-text-main {
+    padding: 10px 15px 20px;
+  }
+  .model-chat .chat-text-main {
+    max-height: 380px;
+    overflow-y: auto;
+    margin-top: 30px;
+  }
+  .model-chat .type-msg .primary-btn {
+    width: 81px;
+    min-width: 81px;
+  }
+  .model-chat .type-msg {
+    margin-top: 20px;
+  }
+  .chat-text {
+    margin-bottom: 15px;
+  }
+  .video-setting {
+    margin-top: 10px;
+  }
+  .type-msg {
+    width: calc(100% - 86px);
+    left: 43px;
+  }
+  .list-dotors-right > .primary-btn {
+    margin-bottom: 20px;
+  }
+  .waiting-room-main {
+    padding-bottom: 30px;
+    height: 100%;
+  }
+  .incall-chat.waiting-content {
+    max-height: 455px;
+  }
+  .incall-chat .chat-text-main {
+    max-height: 100%;
+  }
+
+  /*v-2*/
+  .chat-window .type-msg.with-close.d-lg-none form {
+    width: 100%;
+  }
+
+  /*v-3*/
+  .appointment-box h2 {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 37px !important;
+  }
+  .right-col-main .next-step {
+    margin-top: 107px;
+  }
+  .word-limit {
+    font-size: 18px;
+  }
+  .days li a {
+    height: 44px;
+    width: 44px;
+    font-size: 18px;
+    line-height: 48px;
+  }
+  .triage-details-main .next-step .primary-btn.small,
+  .right-col-main .next-step .primary-btn.small {
+    max-width: 310px;
+  }
+  .triage-select-time .left-col-app h3 {
+    max-width: 370px;
+    margin: 0 auto;
+  }
+  .version2-menu .circle-img-wrppaer {
+    top: 67px;
+    z-index: -1;
+  }
+  .triage-confirmation-page .middle-triage-content {
+    top: 50%;
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    left: 50%;
+    position: absolute;
+    max-width: 455px;
+  }
+  .triage-confirmation-page h2 {
+    text-align: center;
+  }
+  .view-app.primary-btn {
+    margin: -30px auto 0;
+  }
+  .middle-triage-content h2 br {
+    display: none;
+  }
+
+  /*v-4*/
+  .call-left {
+    width: 60%;
+  }
+  .call-right {
+    width: 40%;
+  }
+  .call-options-main .volume-icon {
+    left: 20px;
+  }
+  .content-wrapper .row.content-row {
+    justify-content: center;
+  }
+  /* .inthis-call-img {
+        min-height: 475px;
+        height: auto;
+    } */
+  .name-designation.office-home-heading {
+    margin-top: 0;
+  }
+  .appointment h1 {
+    justify-content: center;
+  }
+  .app-wrapper > h2 {
+    text-align: left;
+    margin-top: 35px;
+    font-size: 42px;
+    line-height: 44px;
+    max-width: 240px;
+  }
+  .appointment h1 {
+    display: none !important;
+  }
+  .app-wrapper,
+  .triage-details-main .appointment-box {
+    box-shadow: none !important;
+    padding: 0;
+  }
+  .appointment {
+    background-color: #fff;
+  }
+  .md-white {
+    background-color: #fff;
+  }
+  .d-m-none {
+    display: none;
+  }
+  .cancel-wrapper {
+    text-align: left;
+  }
+  .bullet-custom .d-mobile .bulletin-post {
+    padding: 30px;
+  }
+  .bullet-custom .d-mobile .bulletin-post h2 {
+    font-size: 24px;
+    line-height: 22px;
+    margin-bottom: 0;
+  }
+  .bullet-custom .d-mobile p {
+    margin-top: 13px;
+  }
+  .triage-details .form-control {
+    min-height: 226px;
+  }
+  .tra-waiting .appointment-box h2 {
+    color: #343642;
+  }
+  .app-wrapper .profile {
+    height: 52px;
+    width: 52px;
+  }
+  .who-visited h1 {
+    max-width: 250px !important;
+  }
+  .edit-profile-page .appointment-box {
+    padding: 0;
+    box-shadow: none;
+  }
+  .myOffice-page .cancel-wrapper {
+    text-align: center;
+  }
+  .myOffice-page .accordion .box-profile h2 {
+    margin-bottom: 0 !important;
+  }
+  #accordionEx .some-one-else h2 {
+    margin-bottom: 0 !important;
+    text-align: left;
+  }
+  .myOffice-page .visited-list {
+    padding: 15px 20px;
+  }
+  .myOffice-page .appointment-box {
+    padding: 0;
+    background: transparent;
+    box-shadow: none;
+  }
+  .map-frame {
+    box-shadow: none;
+    border-radius: 0;
+  }
+  .common-step h4 {
+    margin-top: 30px;
+  }
+  .time-list > div:last-child {
+    display: none;
+  }
+  .second .time-list > div:last-child {
+    display: block;
+  }
+  .nav-pills {
+    margin-bottom: 0;
+  }
+  .time-list h4 {
+    line-height: 22px;
+  }
+  .time-list > div a {
+    padding: 12px;
+    font-size: 18px;
+  }
+  .main-calender {
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .search-result.main-bg-sectoin {
+    padding: 62px 0 0 0;
+  }
+  .find-covid-btn {
+    height: 76px;
+    font-size: 20px;
+  }
+  .ui-state-default {
+    margin: 8px 4.5px;
+  }
+  td.ui-datepicker-other-month.ui-datepicker-unselectable.ui-state-disabled:after {
+    left: 4.5px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 40px;
+    width: 40px;
+  }
+  .ui-state-default {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    line-height: 37px;
+  }
+  .nav-pills li a {
+    padding: 14px;
+  }
+  .nav-pills li a {
+    font-size: 18px;
+  }
+  .time-list > div {
+    width: 100%;
+    margin-right: 0;
+  }
+  .time-list h4 {
+    margin-top: 30px;
+  }
+  .time-list > div a:last-child {
+    margin-bottom: 0;
+  }
+  .time-list {
+    flex-direction: column;
+  }
+  .b-wrapper .right a {
+    height: 60px;
+    width: 60px;
+  }
+  .model-chat .chat-text:nth-child(even) .chat-box {
+    width: 100%;
+    max-width: 100%;
+  }
+  .type-msg .primary-btn {
+    height: 60px;
+    width: 105px;
+  }
+  .type-msg.with-close form {
+    width: calc(100% - 125px) !important;
+  }
+  .chat-text:nth-child(2n) .chat-info:before {
+    content: none;
+  }
+  .inbox-page-main .cancel-wrapper + h1 {
+    display: none !important;
+  }
+  .chat-main {
+    box-shadow: none;
+    padding: 16px 0 0;
+  }
+
+  .chat-show .chat-window {
+    padding: 30px 15px 30px 30px;
+  }
+  .inbox-custom {
+    overflow: hidden;
+  }
+  .inbox-msgs {
+    margin-top: 24px;
+  }
+  .custom-scrl-content {
+    height: calc(100vh - 300px);
+  }
+  .app-wrapper > h2 {
+    margin-bottom: 55px;
+  }
+  .d-mobile {
+    display: block;
+  }
+  .d-only-desk {
+    display: none;
+  }
+  .d-o-mobile {
+    display: none;
+  }
+  .cancel-wrapper .arrow_icon {
+    display: none !important;
+  }
+  .d-show {
+    display: none;
+  }
+  .cancel-wrapper a {
+    display: flex;
+    align-items: center;
+  }
+  .cancel-wrapper a img {
+    margin-right: 10px;
+  }
+  .menu_wrapper {
+    padding: 21px 0;
+  }
+  .office-home-info {
+    align-items: flex-start !important;
+    margin-top: 0;
+  }
+  .tra-waiting .appointment-box h2 {
+    line-height: 42px;
+    font-size: 42px;
+  }
+  .tra-waiting .appointment-box h2 {
+    display: block !important;
+    padding-top: 20px;
+  }
+  .menu_wrapper {
+    padding: 24px 0px;
+  }
+  .logo-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .triage-details-main .word-limit {
+    display: block !important;
+  }
+  img.desktop-logo {
+    display: none;
+  }
+  img.mobile-logo {
+    display: block;
+  }
+  .drop-down-wrpper {
+    display: none;
+  }
+  h1,
+  .who-visited h1 {
+    font-size: 42px;
+    line-height: 42px;
+  }
+  .visited-list h2 {
+    font-size: 20px;
+    line-height: 23px;
+    padding-left: 13px;
+    text-align: left;
+  }
+  .dot .profile:before {
+    height: 13px;
+    width: 13px;
+    right: 2px;
+  }
+  .app-wrapper .visited-list .details > div {
+    padding-left: 17px;
+  }
+  .app-wrapper .visited-list p {
+    margin-top: 6px;
+  }
+  .registration-page h1 {
+    text-align: left;
+  }
+  .menu_wrapper {
+    background: #ffffff;
+  }
+  .main-bg-sectoin {
+    padding: 0 0 30px 0;
+    height: 100%;
+  }
+  .main-bg-sectoin.landing-page h2 {
+    display: none;
+  }
+  .main-bg-sectoin form {
+    margin-top: 25px;
+  }
+  .img-wrppaer {
+    bottom: 0;
+  }
+
+  /*office-Desktop-page-css*/
+  #site-topnav .navbar-toggle .menu {
+    font-size: 0;
+  }
+  #site-topnav .navbar-toggle .menu img {
+    position: relative;
+    z-index: 111;
+  }
+  .box-wrapper h2 {
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 60px;
+    margin: 7px 0;
+  }
+  .box-img {
+    width: 40px;
+    height: 40px;
+  }
+  .box-wrapper {
+    padding: 12px;
+  }
+  .box-wrapper small {
+    font-size: 13px;
+    line-height: 17px;
+  }
+  .main-bg-sectoin.desktop-page h1 {
+    max-width: 100%;
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+  /* .main-bg-sectoin .img-wrppaer {
+	   top: 0;
+	   overflow: hidden;
+    } */
+  img.flower-img {
+    transform: rotate(-65deg);
+    max-width: 120px;
+    margin-left: 10px;
+  }
+  .menu_wrapper.desktop-wrapper {
+    background-color: #fff;
+    border-bottom: 1px solid rgba(56, 65, 124, 0.192554);
+  }
+  .circle-img-wrppaer {
+    display: none;
+  }
+  .add-office-page h1 {
+    max-width: 100%;
+    text-align: left;
+  }
+  .cancel-wrapper {
+    display: block;
+    text-align: left;
+  }
+  .man_img {
+    display: block;
+  }
+  .flower-img {
+    display: none;
+  }
+  .register-form {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .img-wrppaer.full-img .man-img {
+    display: none;
+  }
+  .mobile-leaves {
+    display: block;
+    position: absolute;
+    top: 57px;
+    right: 0;
+    z-index: -1;
+  }
+  .registration-page .mobile-leaves {
+    top: 0px;
+  }
+  .registration-page {
+    padding-top: 55px;
+  }
+  .registration-page .img-wrppaer.full-img {
+    display: none;
+  }
+  .primary-btn {
+    font-size: 24px;
+  }
+  .goodmorning-text h1 {
+    max-width: 340px !important;
+    margin: 45px 0 41px !important;
+  }
+  #site-topnav .navbar-brand {
+    max-width: 90px;
+  }
+  .content-row .col-6 {
+    padding: 0 6px;
+  }
+  .add-new-office h2 {
+    max-width: 91px;
+  }
+  .content-row [class*="col-"] {
+    margin-bottom: 12px;
+  }
+  .navbar-brand .mobile-logo {
+    max-width: 90px;
+  }
+  .landing-page-main {
+    padding: 40px 0 0 0;
+  }
+  .navbar-brand.mobile-navbar {
+    margin: 0 0 10px 0;
+  }
+  .landing-content .img-wrppaer.full-img .man-img,
+  .add-office-page .img-wrppaer .man_img {
+    display: block;
+    max-width: 60%;
+    margin-left: auto;
+  }
+  .landing-content .img-wrppaer.full-img,
+  .add-office-page .img-wrppaer {
+    bottom: -35px;
+  }
+  .main-bg-sectoin.add-office-page a.secondary-btn {
+    font-size: 18px;
+  }
+  .main-bg-sectoin.add-office-page {
+    text-align: left;
+    padding: 25px 0 0 0;
+  }
+  .cancel-wrapper {
+    margin-bottom: 20px;
+  }
+  .add-new-office-main p {
+    display: none;
+  }
+  .main-bg-sectoin.add-office-page h1 {
+    text-align: left;
+    margin-bottom: 0;
+  }
+  .add-office-form {
+    margin-top: 0;
+  }
+  .office-home-left .dots {
+    height: 17px;
+    width: 17px;
+    right: -2px;
+    bottom: 0;
+  }
+  .office-home-left .box-img {
+    width: 60px;
+    height: 60px;
+    margin: 0;
+    float: left;
+  }
+  .office-home-left h1 {
+    letter-spacing: -0.6px;
+    display: inherit;
+    text-align: center;
+  }
+  .office-home-left .name-designation h2 {
+    font-size: 13px;
+    line-height: 17px;
+    letter-spacing: -0.325px;
+  }
+  .name-designation {
+    display: table;
+    text-align: left;
+    padding-left: 20px;
+  }
+  .office-info {
+    float: left;
+    padding: 0 0 0 35px;
+    text-align: left;
+  }
+  .office-info:first-child {
+    padding-left: 0;
+  }
+  .office-info h3 {
+    font-size: 13px;
+    letter-spacing: -0.325px;
+    line-height: 17px;
+    margin-bottom: 5px;
+  }
+  .office-home-left h2 {
+    margin-bottom: 40px;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: -0.45px;
+  }
+  .office-icons img {
+    max-width: 32px;
+  }
+  .office-icons {
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+  }
+  .office-home-right .box-wrapper {
+    padding: 20px;
+  }
+  .office-home-right .col-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .office-home-info-right {
+    max-width: 100%;
+    position: relative;
+  }
+  .office-home-info h2 {
+    font-size: 28px;
+    line-height: 28px;
+    margin: 0;
+  }
+  .office-home-info p {
+    margin-top: 8px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .office-home-info {
+    padding-left: 17px;
+  }
+  .counter {
+    position: absolute;
+    left: 0;
+
+    text-align: center;
+    top: 0 !important;
+  }
+  .office-home-right .content-row [class*="col-"] {
+    margin-bottom: 12px;
+  }
+  .office-home-right .content-row .col-6 {
+    padding: 0;
+  }
+  .office-home-left .cancel-wrapper {
+    margin-bottom: 35px;
+  }
+  .triage-app-left {
+    max-width: 300px;
+    margin: 0;
+  }
+  .office-home-main h1 {
+    margin: 20px 0 !important;
+  }
+  .content-wrapper.triage-app-right {
+    padding: 10px 0 0 0;
+  }
+  .content-wrapper.triage-app-right {
+    max-width: 100%;
+  }
+  .triage-app-right .appointment-box {
+    padding: 0;
+    background: transparent;
+    box-shadow: none;
+  }
+  .schedule-appointment h3 {
+    float: left;
+  }
+  .schedule-appointment {
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(56, 65, 124, 0.2);
+    border-radius: 8px;
+    padding: 20px 15px;
+    height: 56px;
+  }
+  .schedule-appointment h4 {
+    text-align: right;
+  }
+  .triage-appoint-page .walkin-appointment .primary-btn {
+    max-width: 100%;
+    text-align: left;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    padding: 18px 15px;
+    height: 56px;
+  }
+  .next-step .primary-btn {
+    max-width: 100%;
+    height: 56px;
+    line-height: 56px;
+    margin-bottom: 0;
+  }
+  .triage-appoint-page .next-step {
+    margin-top: 114px;
+  }
+  .triage-appoint-page .office-home-main {
+    padding-bottom: 0;
+  }
+  .triage-symptoms-page .triage-app-left h2 {
+    display: none;
+  }
+  .triage-symptoms-page .triage-app-left h1 {
+    margin-bottom: 30px !important;
+  }
+  .triage-details-main h2,
+  .word-limit {
+    display: none;
+  }
+  .triage-details-main .triage-details-left {
+    max-width: 300px;
+    margin: 0;
+  }
+  .triage-details-main .appointment-box {
+    box-shadow: 0px 0px 14px rgba(56, 65, 124, 0.17);
+    margin-bottom: 30px;
+  }
+  .triage-details-main form {
+    margin-top: 0;
+  }
+  .office-home-main {
+    padding-bottom: 0;
+  }
+  .next-step .primary-btn.small {
+    max-width: 100%;
+  }
+  .account-sign-register {
+    text-align: left;
+  }
+  .accordion .card-header .box-profile {
+    margin-left: 10px;
+  }
+  .content-wrapper.list-desktop-right button {
+    max-width: 100%;
+    margin-bottom: 0;
+  }
+  .accordion .card {
+    padding: 15px;
+  }
+  .accordion h2 {
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+  .accordion small {
+    font-size: 13px;
+    margin-bottom: 5px;
+  }
+  .primary-btn {
+    height: 70px;
+  }
+  .modal-content .modal-header {
+    padding: 20px 20px 5px;
+  }
+  .modal-content .modal-footer {
+    border: 0;
+    padding: 0 20px 20px;
+  }
+  .list-dotors-right .primary-btn {
+    margin: 0;
+  }
+  .list-dotors-right .dots {
+    right: -1px;
+    bottom: -4px;
+  }
+  .accordion .card-body h2 {
+    font-size: 15px;
+    margin-bottom: 0;
+    line-height: 19px;
+  }
+  .accordion .card-body ul li {
+    padding: 0 20px 0 0;
+  }
+  .modal-dialog {
+    max-width: 282px;
+  }
+  .modal {
+    width: 95%;
+  }
+  .waiting-room-left {
+    margin: 0;
+    max-width: 100%;
+  }
+  .waiting-room-left .name-designation {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+  }
+  .waiting-room-left .name-designation h1 {
+    text-align: center;
+  }
+  .main-bg-sectoin.desktop-page .waiting-room-left h1 {
+    font-size: 24px;
+    line-height: 23px;
+    margin: 25px 0 12px 0;
+  }
+  .waiting-room-left h2 {
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 18px;
+  }
+  .cancel-wrapper .arrow_icon {
+    margin-top: -3px;
+  }
+  .waiting-room-left .primary-btn {
+    margin: 0px auto;
+  }
+  .landing-page .primary-btn {
+    font-size: 24px;
+    box-shadow: 0px 2px 16px rgba(39, 40, 42, 0.118608);
+    height: 64px;
+  }
+  .name-designation.office-home-heading h1 {
+    margin: 0 0 5px 0 !important;
+  }
+  .register-form .primary-btn {
+    font-size: 18px;
+  }
+  .add-office-page {
+    padding-bottom: 20px !important;
+  }
+  .main-bg-sectoin.add-office-page .form-group .form-control {
+    padding: 18px 51px 21px 21px;
+  }
+  /*** waiting mobile css ***/
+  .tabbing-sec .nav-item {
+    margin-left: 50px;
+  }
+  .tabbing-sec .nav-link {
+    padding: 0;
+    border: 0;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background: transparent;
+    text-align: center;
+    line-height: 49px;
+    position: relative;
+  }
+  .tabbing-sec .nav-tabs .nav-item.show .nav-link,
+  .tabbing-sec .nav-tabs .nav-link.active {
+    background: rgba(56, 65, 124, 0.14);
+  }
+  .tabbing-sec .nav-item:first-child {
+    margin-left: 0;
+  }
+  .waiting-img {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  .tabbing-sec .nav-tabs {
+    border-bottom: 0;
+    margin-top: 36px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+  }
+  .chat-text-main {
+    max-height: 100%;
+    overflow: inherit;
+    padding: 0 5px;
+  }
+  .waiting-content {
+    width: 100%;
+    max-height: 100%;
+    background: transparent;
+    box-shadow: none;
+    padding: 0;
+  }
+  .type-msg {
+    width: 100%;
+    position: static;
+    margin: 77px 0 0 0;
+  }
+  .type-msg.with-close form {
+    margin-top: 0;
+    width: calc(100% - 65px);
+  }
+  .close-chat {
+    height: 50px;
+    width: 50px;
+  }
+  .type-msg .common-input {
+    height: 60px;
+    padding: 15px;
+  }
+  .volume-bar,
+  .player {
+    width: 100%;
+  }
+  .source {
+    width: 100%;
+    padding: 0;
+  }
+  .video-setting {
+    padding: 23px;
+    position: relative;
+  }
+  .video-setting::after {
+    position: absolute;
+    left: 25px;
+    bottom: -24px;
+    border-top: 12px solid #fff;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    content: "";
+  }
+  .source.left-s,
+  .source.right-s {
+    padding: 0;
+  }
+  .tabbing-sec {
+    text-align: left;
+    padding-bottom: 20px;
+    width: 280px;
+    margin: 0 auto;
+  }
+  .source.right-s {
+    padding-top: 20px;
+  }
+  .vol-info {
+    margin-bottom: 10px;
+  }
+  .waiting-ready-mobile {
+    margin-bottom: 20px;
+  }
+  .incall-chat .type-msg {
+    width: calc(100% - 30px);
+    margin-left: 10px;
+    margin: 0 0 0px 10px;
+    padding-bottom: 30px;
+  }
+  .incall-chat.waiting-content {
+    max-height: 100%;
+    position: absolute;
+    top: 150px;
+    left: 0;
+    background: #f9faff;
+  }
+  .incall-chat .chat-text-main {
+    padding-bottom: 10px;
+  }
+  .setting-tabs-main .tab-content {
+    position: fixed;
+    top: 160px;
+    z-index: 999;
+    left: auto;
+    width: 280px;
+    margin: 0 auto;
+  }
+  .video-setting h2 {
+    font-size: 24px;
+    line-height: 23px;
+  }
+
+  /*v-2*/
+  .version2-menu #site-topnav .navbar-brand {
+    max-width: 115px;
+  }
+  .inbox-page-main .cancel-wrapper + h1 {
+    display: none;
+  }
+  .inbox-page-main .cancel-wrapper {
+    text-align: left;
+  }
+  .inbox-right {
+    text-align: left;
+    padding: 0;
+  }
+  .chat-show .new-msg {
+    display: none;
+  }
+  .chat-window {
+    display: block;
+    position: absolute;
+    top: -15px;
+    background: white !important;
+    z-index: 999999999999999;
+    padding-right: 0px !important;
+  }
+  .chat-main .chat-content {
+    text-align: left;
+  }
+  .chat-show .chat-window {
+    display: block;
+  }
+  .chat-window .type-msg {
+    margin: 50px 0 0 0;
+  }
+  .show-mobile {
+    display: block !important;
+  }
+  .hide-mobile {
+    display: none !important;
+  }
+  .chat-window .type-msg {
+    width: 100%;
+  }
+  .chat-window .type-msg.with-close form {
+    width: calc(100% - 70px);
+  }
+  /* .cancel-wrapper.show-mobile {
+        background: #fff;
+    } */
+  .cancel-wrapper.show-mobile {
+    display: none !important;
+  }
+  .chat-show .cancel-wrapper.show-mobile {
+    display: block !important;
+    background: #fff;
+    position: absolute;
+    top: -26px;
+    left: 0;
+    width: 100%;
+    height: 65px;
+    padding: 25px 15px 25px 15px;
+    z-index: 999;
+  }
+  .show-inbox .new-msg {
+    display: block;
+  }
+  .show-inbox .chat-window {
+    display: none;
+  }
+  .show-inbox .cancel-wrapper.show-mobile {
+    display: none !important;
+  }
+  .type-msg.with-close.d-none.show-mobile {
+    margin-top: 50px;
+    padding: 0 15px 0 25px;
+    /* display: none !important; */
+  }
+  .chat-show .type-msg.with-close.d-none.show-mobile {
+    display: block !important;
+    margin-bottom: 30px;
+  }
+  .chat-main .chat-window h2 {
+    font-size: 20px;
+  }
+  .inbox-modal.modal-open {
+    background: transparent;
+  }
+  .inbox-modal .modal-backdrop {
+    background-color: transparent;
+    display: none;
+  }
+  .new-msg-mobile {
+    display: none !important;
+  }
+  .modal-open .new-msg-mobile {
+    display: block !important;
+    padding: 0 15px;
+  }
+  .modal-open .new-msg,
+  .modal-open .type-msg.with-close.d-none.show-mobile {
+    /* display: none !important; */
+  }
+  .container.inbox-page-main {
+    max-width: 100%;
+  }
+  .cancel-wrapper.message-window {
+    display: none !important;
+  }
+  .modal-open .cancel-wrapper.message-window {
+    display: block !important;
+  }
+  .modal-open .inbox-wrapper {
+    display: none !important;
+  }
+  .new-msg-mobile form .form-group {
+    background: #ffffff;
+    border: 1px solid #d2d4de;
+    border-radius: 8px;
+    padding: 8px 15px;
+    box-shadow: 0px 0px 14px rgba(56, 65, 124, 0.17);
+    margin-bottom: 12px;
+  }
+  .new-msg-mobile form .form-group label {
+    font-size: 13px;
+    line-height: 17px;
+    color: rgba(56, 65, 124, 0.5);
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  .new-msg-mobile form input[type="text"] {
+    width: 100%;
+    color: #38417c;
+  }
+  .new-msg-mobile form .form-group {
+    background: #ffffff;
+    border: 1px solid #d2d4de;
+    border-radius: 8px;
+    padding: 8px 15px;
+    box-shadow: 0px 0px 14px rgba(56, 65, 124, 0.17);
+    margin-bottom: 12px;
+  }
+  .new-msg-mobile form textarea {
+    border: 0;
+    width: 100%;
+    resize: none;
+    color: rgba(56, 65, 124, 0.5);
+    font-size: 18px;
+    min-height: 150px;
+    padding-top: 15px;
+  }
+  .new-msg-mobile .btn {
+    width: 100%;
+    font-size: 18px;
+    height: 56px;
+    max-width: 100%;
+    margin-top: 20px;
+  }
+  .new-msg-mobile .btn:focus {
+    box-shadow: none;
+  }
+  .new-msg-mobile h1.modal-title {
+    margin: 0;
+  }
+
+  /*v-3*/
+  .appointment-rght {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .app-date {
+    margin-right: 20px;
+    padding-right: 20px;
+  }
+  .app-info h2 {
+    font-size: 18px;
+  }
+  .app-btn {
+    margin: 15px 0 0 0;
+  }
+  .app-details-main {
+    margin-top: 27px;
+  }
+  .app-details {
+    margin-top: 12px;
+  }
+  .left-col-app h3 {
+    text-align: left;
+    color: rgba(56, 65, 124, 0.8);
+  }
+  .appointment-box h2 {
+    text-align: left;
+  }
+  .right-col-main .appointment-box .symptoms-listing {
+    padding: 0;
+  }
+  .triage-app-right.right-col-main {
+    margin-top: 30px;
+    padding: 0;
+  }
+  .right-col-main .next-step .primary-btn {
+    max-width: 100%;
+  }
+  .right-col-main .next-step {
+    margin-top: 17px;
+  }
+  .appointment-box h2 {
+    margin-bottom: 19px !important;
+    line-height: 32px;
+  }
+  .declined-app h2 {
+    text-align: left;
+  }
+  .declined-app-main {
+    margin: 10px 0 50px 0;
+  }
+  .left-col-app.declined-appointment {
+    height: calc(100vh - 125px);
+  }
+  .remove-app {
+    bottom: -25px;
+  }
+  .remove-app .primary-btn {
+    max-width: 100%;
+  }
+  .confirmed-appointment h2 {
+    font-size: 18px;
+    text-align: left;
+    margin: -10px 0 0 0 !important;
+  }
+  .enter-waiting-room-btn.primary-btn {
+    max-width: 100%;
+    margin: 18px auto 0;
+  }
+  .reschedule-btns .secondary-btn.border-btn {
+    font-size: 18px;
+    height: 56px;
+  }
+  .reschedule-btns li {
+    float: left;
+    padding-left: 10px;
+    width: 50%;
+    margin: 0;
+  }
+  .reschedule-btns li:first-child {
+    padding-left: 0;
+  }
+  .reschedule-btns li a {
+    min-width: 100%;
+  }
+  .confirmed-appointment {
+    height: calc(100vh - 125px);
+  }
+  .reschedule-btns {
+    bottom: 0;
+  }
+  .notes h2 {
+    color: #38417c;
+    font-size: 24px;
+    margin-bottom: 15px !important;
+  }
+  .notes {
+    margin: 45px 0 0 0;
+  }
+  .time-slot-btn .btn {
+    font-size: 13px;
+    line-height: 25px;
+  }
+  #time-office-modal h1 {
+    margin: 0;
+  }
+  #time-office-modal .modal-body p {
+    font-size: 15px;
+  }
+  #time-office-modal form {
+    margin: 0;
+  }
+  .time-slot-btn .btn {
+    margin: 0;
+  }
+  .triage-symptoms-page .triage-app-left {
+    max-width: 100%;
+  }
+  .cancel-wrapper {
+    position: relative;
+  }
+  .cancel-wrapper a.cancel-action {
+    position: absolute;
+    right: 0;
+    font-size: 18px;
+    top: 1px;
+    color: rgba(56, 65, 124, 0.8);
+  }
+  .cancel-wrapper a.cancel-action:hover,
+  .cancel-wrapper a.cancel-action:focus {
+    color: #38417c;
+  }
+  .show-reschedule .hide-rechedule-btn {
+    display: none;
+  }
+  .show-reschedule .confirmed-appointment {
+    height: 100%;
+  }
+  .show-reschedule .confirmed-app-inner {
+    padding-bottom: 10px;
+  }
+  .show-reschedule .cancel-wrapper.message-window {
+    display: block !important;
+  }
+  .show-reschedule .new-msg-mobile {
+    display: block !important;
+    padding: 0 15px;
+  }
+  .show-reschedule .cancel-wrapper.inbox-wrapper {
+    display: none !important;
+  }
+  .triage-details-main .next-step .primary-btn.small,
+  .right-col-main .next-step .primary-btn.small {
+    max-width: 100%;
+  }
+  .triage-select-time .left-col-app h3 {
+    display: none;
+  }
+  .days li {
+    margin-left: 12px;
+  }
+  .symptoms-listing.with-day-selection li {
+    width: 100%;
+  }
+  .days {
+    margin-bottom: 20px;
+  }
+  .main-bg-sectoin {
+    padding: 0 0 29px 0;
+  }
+  .full-width-mobile {
+    max-width: 100% !important;
+  }
+  .small-second-head h2 {
+    font-size: 15px;
+    text-align: left;
+    line-height: 17px;
+    margin: 0 0 12px 0;
+  }
+  .small-second-head h1 {
+    margin-bottom: 10px !important;
+  }
+  .triage-video-chat-box .schedule-appointment {
+    padding: 18px 10px;
+  }
+  .triage-confirmation-page .middle-triage-content {
+    position: static;
+    -moz-transform: none;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+  .view-app.primary-btn {
+    margin: 0;
+    position: absolute;
+    left: 15px;
+    width: calc(100% - 30px);
+    bottom: 0;
+    max-width: 100%;
+  }
+  .triage-confirmation-page .container {
+    position: relative;
+    height: calc(100vh - 125px);
+  }
+  .bulletin-post-main h3 {
+    text-transform: uppercase;
+  }
+  .bulletin-post {
+    padding: 20px 15px;
+    margin-bottom: 10px;
+  }
+  .bulletin-post h2 {
+    font-size: 18px;
+  }
+  .bulletin-post p {
+    margin: 0;
+  }
+  .version2-menu .circle-img-wrppaer {
+    display: none !important;
+  }
+
+  /*v-4*/
+  .drop-down-wrpper {
+    display: block;
+  }
+  .main-bg-sectoin.meet-form-main {
+    padding: 0;
+    height: calc(100% - 71px);
+  }
+  .logo-wrapper {
+    justify-content: left;
+    align-items: flex-start;
+  }
+  .options ul {
+    z-index: 999;
+  }
+  .call-settings {
+    position: static;
+  }
+  .setting {
+    background: url(../images/setting-mobile.svg) no-repeat;
+    background-position: center center;
+    margin-left: -13px;
+    height: 86px;
+    width: 86px;
+  }
+  .video-m,
+  .speaker {
+    margin-top: -77px;
+  }
+  .call-options-main {
+    bottom: 0;
+  }
+  .setting-info {
+    top: 100%;
+    bottom: auto;
+  }
+  .setting-info {
+    display: none;
+  }
+  .open-setting .setting-info {
+    display: block;
+  }
+  .video-bg,
+  .request-submitted {
+    height: 100vh;
+  }
+  .video-bg .main-bg-sectoin.meet-form-main {
+    height: 100%;
+  }
+  .call-left {
+    width: 100%;
+  }
+  .call-main {
+    display: inline-block !important;
+    width: 100%;
+    position: relative;
+  }
+  .call-right {
+    width: 100%;
+    background: #fff;
+    padding-bottom: 40px;
+  }
+  .call-left .call-options-main {
+    bottom: 60px;
+  }
+  .volume-icon > img {
+    float: left;
+    width: 34px;
+  }
+  .volume-icon > span {
+    padding: 10px 30px 10px 10px;
+    display: table;
+  }
+  .user-call-info-main .video-m,
+  .user-call-info-main .speaker {
+    margin-top: 0;
+  }
+  .call-info-tabs .tab-content {
+    padding: 0 20px 0 20px;
+  }
+  .call-info-tabs .nav-tabs .nav-link {
+    background: #f9faff;
+  }
+  .call-right .type-msg {
+    width: 100%;
+  }
+  .call-img {
+    height: 385px;
+    min-height: auto;
+  }
+  .joining-calls-main {
+    height: 100%;
+    position: fixed;
+    bottom: 0;
+  }
+  .menu_wrapper {
+    z-index: 999;
+    position: relative;
+  }
+  .mobile-calls {
+    position: relative;
+    padding: 0 10px;
+  }
+  .mobile-calls .end-call.call-option-img {
+    display: block;
+    margin: -76px 0 0 -15px;
+  }
+  .mobile-calls .call-options-main {
+    position: absolute;
+    margin-top: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: -10px auto 0;
+    height: 60px;
+  }
+  .mobile-calls > img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  #call.call-mobile {
+    white-space: nowrap;
+    overflow: auto;
+  }
+  #call.call-mobile .call-img-main {
+    display: inline-block;
+    width: 50%;
+  }
+  .inthiscall-mobile .usname {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .inthiscall-mobile .user-call-info {
+    float: left;
+  }
+  .call-img-main.active {
+    border: 2px solid transparent;
+  }
+  .inthiscall-mobile > img {
+    width: 100%;
+  }
+  .inthiscall-mobile .user-call-info-main {
+    bottom: 30px;
+    padding: 0;
+    left: 30px;
+  }
+  #chat {
+    height: 500px;
+    overflow: auto;
+  }
+  .call-right .custom-scrl-content {
+    height: auto;
+  }
+
+  /*new css*/
+  .main-bg-sectoin {
+    padding: 48px 0 29px 0;
+  }
+  .registration-page .img-wrppaer.full-img img {
+    max-width: 60% !important;
+  }
+  .main-bg-sectoin.select-visitor .img-wrppaer.full-img .man-img,
+  .main-bg-sectoin.select-visitor .img-wrppaer.full-img .man-img img {
+    display: block;
+    margin-left: auto;
+  }
+  .main-bg-sectoin.select-visitor .img-wrppaer.full-img .man-img {
+    max-width: 60% !important;
+  }
+  h1 {
+    font-size: 42px;
+  }
+  .user-detail-popup li a {
+    font-size: 20px;
+  }
+  .user-detail-popup li:first-child h2 {
+    font-size: 30px;
+    line-height: 34px;
+  }
+  .landing-page .title h1 {
+    font-size: 42px;
+    line-height: 44px;
+    padding-bottom: 30px;
+  }
+  .menu_wrapper {
+    padding: 24px 0px;
+  }
+  .d-mobile {
+    display: block;
+  }
+  .inbox-custom.chat-show {
+    overflow: auto;
+  }
+  .profile-edit-main .profile-edit {
+    margin-bottom: 30px;
+  }
+  .edit-form .edit-row {
+    margin-left: 0;
+  }
+  .profile-edit-main .profileImg {
+    max-width: 85px;
+    height: 85px;
+  }
+  .profile-edit-main .btns {
+    padding-left: 20px;
+  }
+  .myOffice-page h1 {
+    text-align: left;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  .myOffice-page .accordion .card-body {
+    display: inline-block;
+  }
+  .myOffice-page .accordion .card-body .btns .btn:first-child {
+    margin-left: 0;
+  }
+  .myOffice-page .accordion .card-body .btns .btn {
+    padding: 6px 20px;
+    min-width: 142px;
+  }
+  .myOffice-page .accordion .card-body {
+    padding: 15px 0 0;
+  }
+  .myOffice-page .accordion .card-body ul {
+    margin-bottom: 15px;
+  }
+  .myOffice-page .accordion h2 {
+    font-size: 20px;
+  }
+  .myOffice-page .box-img {
+    width: 52px;
+    height: 52px;
+  }
+  .dots {
+    bottom: -1px;
+  }
+  #accordionEx .card-wrapper .counter {
+    right: auto;
+    left: 73px;
+    height: 16px;
+    width: 16px;
+    top: 28px;
+  }
+  .with-info {
+    padding-left: 25px;
+  }
+  .myOffice-page .accordion .card-header .box-profile {
+    margin-left: 20px;
+  }
+  .myOffice-page .accordion .card {
+    padding: 14px 15px;
+  }
+  .new-message-modal .modal-body form textarea {
+    min-height: 260px;
+  }
+  #setting-popup .fild-row .selected.withtest a span {
+    width: 132px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  #setting-popup .fild-row .selected a.test-vol {
+    right: 32px;
+  }
+  .doc-details h1 {
+    font-size: 20px;
+    line-height: 23px;
+  }
+  .bottom-btn {
+    bottom: 30px;
+  }
+  .waiting-room {
+    padding-top: 110px;
+  }
+  .call-right .mCSB_container {
+    padding-left: 0;
+  }
+
+  .search-page h1 {
+    letter-spacing: -1px;
+  }
+  .s-box {
+    margin-top: 23px;
+  }
+}
+@media screen and (max-device-height: 414px) and (orientation: landscape) {
+  .setting-tabs-main .tab-content {
+    position: absolute;
+    top: -60px;
+  }
+  /*v-3*/
+  .left-col-app.declined-appointment,
+  .confirmed-appointment {
+    height: auto;
+  }
+  .remove-app,
+  .reschedule-btns {
+    position: static;
+  }
+  .confirmed-app-inner {
+    padding-bottom: 40px;
+  }
+
+  /*v-4*/
+  .meet-form-main {
+    height: auto !important;
+  }
+  .meet-form {
+    margin-top: 30px;
+  }
+  .call-options-main {
+    position: static;
+    margin-top: 15px;
+  }
+  .video-bg,
+  .request-submitted {
+    height: auto;
+  }
+  .call-img {
+    min-height: 500px;
+  }
+  .call-left .call-options-main {
+    position: absolute;
+  }
+  .call-info-tabs .nav-tabs .nav-link {
+    color: #343642;
+  }
+  .call-info-tabs .nav-tabs .nav-item.show .nav-link,
+  .call-info-tabs .nav-tabs .nav-link.active {
+    color: rgba(52, 54, 66, 0.8);
+  }
+  .inbox-custom {
+    overflow: visible;
+  }
+  .inbox-msgs .new-msg-info-main .custom-scrl-content {
+    height: 400px;
+  }
+  .bottom-btn {
+    position: static;
+    margin: 40px 0 30px 0;
+  }
+  .waiting-room {
+    padding-top: 40px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .landing-content .img-wrppaer.full-img .man-img,
+  .registration-page .img-wrppaer.full-img img {
+    max-width: 60% !important;
+  }
+
+  .first-step {
+    overflow-y: visible;
+  }
+  .modal-dialog {
+    margin: auto;
+  }
+  .map-frame {
+    left: -15px;
+    width: 100vw;
+  }
+  .appointment-confirm .map-frame {
+    left: 0;
+  }
+  .search-page p {
+    max-width: 100%;
+    font-size: 18px;
+  }
+
+  .calendar {
+    max-width: 400px;
+    width: 100%;
+  }
+
+  .mobile-input {
+    display: block !important;
+  }
+
+  .mobile-input input {
+    float: left;
+    width: 60% !important;
+  }
+}
+
+@media screen and (max-width: 479px) {
+}
+
+@media screen and (max-width: 374px) {
+  .waiting-img {
+    max-width: 104px;
+  }
+  .setting-tabs-main .tab-content {
+    top: 0;
+  }
+
+  /*v-4*/
+  .mobile-calls .call-options-main li {
+    margin: 0 2px;
+  }
+  .mobile-calls .end-call.call-option-img {
+    margin-left: -14px;
+  }
+  .office-home-info h2 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .office-home-info {
+    padding-left: 10px;
+  }
+  .profile-edit-main .profile-edit {
+    display: block;
+  }
+  .profile-edit-main .btns {
+    padding: 20px 0 0 0;
+  }
+}
+@media screen and (max-width: 370px) {
+  .myOffice-page .accordion .card-body .btns .btn {
+    min-width: 116px;
+  }
+  .ui-datepicker-calendar thead tr th span {
+    width: 30px;
+  }
+  .ui-state-default {
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+    line-height: 28px;
+    margin: 4px 1.5px;
+  }
+  td.ui-datepicker-other-month.ui-datepicker-unselectable.ui-state-disabled:after {
+    height: 30px;
+    width: 30px;
+  }
+  td.ui-datepicker-other-month.ui-datepicker-unselectable.ui-state-disabled:after {
+    left: 1.5px;
+  }
+}

@@ -1,0 +1,29 @@
+.sound-wave div {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  margin: 0 1px;
+  background: #55d3b9;
+}
+
+.sound-wave {
+  display: flex;
+  align-items: center;
+}
+.sound-wave .active {
+  border-radius: 30px;
+  height: 8px;
+}
+
+.sound-wave .active.h20 {
+  height: 20px;
+}
+.sound-wave .active.h13 {
+  height: 13px;
+}
+.sound-wave .active.h15 {
+  height: 15px;
+}
+.sound-wave .active.h10 {
+  height: 10px;
+}

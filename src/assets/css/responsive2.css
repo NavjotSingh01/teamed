@@ -1,0 +1,312 @@
+/* @media screen and (min-width:1900px){
+    .inthis-call-img {
+        min-height:1500;
+    }
+} */
+@media (max-width: 1400px) {
+}
+@media (min-width: 1200px) and (max-width: 1366px) {
+  .meet-form {
+    padding: 15px 20px 15px 20px;
+  }
+  .video-bg .meet-form {
+    margin-top: 20px;
+  }
+  .call-options-main {
+    bottom: 20px;
+  }
+  .form-label-group > input,
+  .form-label-group > label {
+    height: 45px;
+    padding: 10px 15px;
+  }
+  .options ul {
+    height: 173px;
+    overflow: auto;
+  }
+  .version4 .fild-row .selected a {
+    padding: 11px 15px;
+  }
+  .meet-form .primary-btn {
+    height: 50px;
+  }
+}
+@media screen and (max-width: 1300px) {
+}
+@media screen and (max-width: 1199px) {
+  .meet-form-main {
+    text-align: left;
+  }
+  .primary-btn {
+    margin-bottom: 0;
+  }
+  .call-left {
+    width: 65%;
+  }
+  .call-right {
+    width: 35%;
+  }
+  .caller-main {
+    right: 100px;
+  }
+  .caller-main > img {
+    max-width: 85px;
+  }
+  .caller-main {
+    bottom: 15px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .call-left {
+    width: 60%;
+  }
+  .call-right {
+    width: 40%;
+  }
+  .call-options-main .volume-icon {
+    left: 20px;
+  }
+  /* .inthis-call-img {
+        min-height: 475px;
+        height: auto;
+    } */
+}
+@media screen and (max-width: 767px) {
+  .doctor-information-container h2 {
+    font-size: 22px;
+  }
+  .video-settings-bubble {
+    position: absolute;
+    top: -300%;
+    right: -75%;
+  }
+
+  .doctor-information-container .video-container {
+    height: 150px;
+    width: 150px;
+    border-radius: 8px;
+  }
+  .doctor-information-container .video-container video {
+    border-radius: 8px;
+  }
+
+  .call-right .type-msg .primary-btn {
+    float: none;
+  }
+  .drop-down-wrpper {
+    display: block;
+  }
+  .main-bg-sectoin.meet-form-main {
+    padding: 0;
+    height: calc(100% - 71px);
+  }
+  .logo-wrapper {
+    justify-content: left;
+    align-items: flex-start;
+  }
+  .options ul {
+    z-index: 999;
+  }
+  .call-settings {
+    position: static;
+  }
+  .setting {
+    background: url(../images/setting-mobile.svg) no-repeat;
+    background-position: center center;
+    margin-left: -13px;
+    height: 86px;
+    width: 86px;
+  }
+  .video-m,
+  .speaker {
+    margin-top: -77px;
+  }
+  .call-options-main {
+    bottom: 0;
+  }
+  .setting-info {
+    top: 100%;
+    bottom: auto;
+  }
+  .setting-info {
+    display: none;
+  }
+  .open-setting .setting-info {
+    display: block;
+  }
+  .video-bg,
+  .request-submitted {
+    height: 100vh;
+  }
+  .video-bg .main-bg-sectoin.meet-form-main {
+    height: 100%;
+  }
+  .call-left {
+    width: 100%;
+  }
+  .call-main {
+    display: inline-block !important;
+    width: 100%;
+    position: relative;
+  }
+  .call-right {
+    width: 100%;
+    background: #fff;
+    padding-bottom: 40px;
+  }
+  .call-left .call-options-main {
+    bottom: 60px;
+  }
+  .volume-icon > img {
+    float: left;
+    width: 34px;
+  }
+  .volume-icon > span {
+    padding: 10px 30px 10px 10px;
+    display: table;
+  }
+  .user-call-info-main .video-m,
+  .user-call-info-main .speaker {
+    margin-top: 0;
+  }
+  .call-info-tabs .tab-content {
+    padding: 0 20px 0 20px;
+  }
+  .call-info-tabs .nav-tabs .nav-link {
+    background: #f9faff;
+  }
+  .call-right .type-msg {
+    width: 100%;
+  }
+  .call-right .type-msg .common-input {
+    width: calc(90% - 126px);
+    float: left;
+    margin-right: 15px;
+  }
+  .scrolling {
+    height: 240px !important;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .call-img {
+    height: 385px;
+    min-height: auto;
+  }
+  .joining-calls-main {
+    height: 100%;
+    position: fixed;
+    bottom: 0;
+  }
+  .menu_wrapper {
+    z-index: 99999;
+    position: relative;
+  }
+  .mobile-calls {
+    position: relative;
+    padding: 0 10px;
+  }
+  .mobile-calls .end-call.call-option-img {
+    display: block;
+    margin: -76px 0 0 -15px;
+  }
+  .mobile-calls .call-options-main {
+    position: absolute;
+    margin-top: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: -10px auto 0;
+    height: 60px;
+  }
+  /* .menu_wrapper {
+    display: none;
+  } */
+  .mobile-calls > img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  #call.call-mobile {
+    white-space: nowrap;
+    overflow: auto;
+  }
+  #call.call-mobile .call-img-main {
+    display: inline-block;
+    width: 50%;
+    height: 200px !important;
+  }
+  .inthiscall-mobile .usname {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .inthiscall-mobile .user-call-info {
+    float: left;
+  }
+  .call-img-main.active {
+    border: 2px solid transparent;
+  }
+  .inthiscall-mobile > img {
+    width: 100%;
+  }
+  .inthiscall-mobile .user-call-info-main {
+    bottom: 30px;
+    padding: 0;
+    left: 30px;
+  }
+  #chat {
+    height: 320px;
+    overflow: auto;
+    padding-top: 0;
+  }
+  .call-right .custom-scrl-content {
+    height: auto;
+    overflow-x: hidden;
+  }
+}
+@media screen and (max-device-height: 414px) and (orientation: landscape) {
+  .meet-form-main {
+    height: auto !important;
+  }
+  .meet-form {
+    margin-top: 30px;
+  }
+  .call-options-main {
+    position: static;
+    margin-top: 15px;
+  }
+  .video-bg,
+  .request-submitted {
+    height: auto;
+  }
+  .call-img {
+    min-height: 500px;
+  }
+  .call-left .call-options-main {
+    position: absolute;
+  }
+  .call-info-tabs .nav-tabs .nav-link {
+    color: #343642;
+  }
+  .call-info-tabs .nav-tabs .nav-item.show .nav-link,
+  .call-info-tabs .nav-tabs .nav-link.active {
+    color: rgba(52, 54, 66, 0.8);
+  }
+}
+@media screen and (max-width: 575px) {
+  .tab-pane .scrolling {
+    height: 15vh !important;
+  }
+}
+
+@media screen and (max-width: 479px) {
+}
+
+@media screen and (max-width: 375px) {
+  .mobile-calls .call-options-main li {
+    margin: 0 2px;
+  }
+  .mobile-calls .end-call.call-option-img {
+    margin-left: -14px;
+  }
+}

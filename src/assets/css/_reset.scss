@@ -1,0 +1,33 @@
+html,
+body {
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body,
+#root {
+  min-height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+button {
+  padding: 0;
+  cursor: pointer;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}

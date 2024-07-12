@@ -1,0 +1,22 @@
+body {
+  font-family: $font_family_primary;
+}
+
+.covid-testing {
+  .title_1 {
+    margin: 0;
+    font-family: $font_family_secondary;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 44px;
+    letter-spacing: -1px;
+    text-align: center;
+    color: $text_color_primary;
+
+    @media screen and (min-width: 768px) {
+      font-size: 55px;
+      line-height: 60px;
+      letter-spacing: -1.5px;
+    }
+  }
+}

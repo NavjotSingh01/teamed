@@ -1,0 +1,1219 @@
+@media (min-width: 1250px) {
+  .container {
+    max-width: 1230px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .man-img {
+    max-width: 500px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  h1 {
+    font-size: 55px;
+    line-height: 55px;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  .main-bg-sectoin {
+    text-align: center;
+  }
+  /* .main-bg-sectoin .register-form form {
+		margin-top: 55px;
+	} */
+  p.mobile-p {
+    display: block;
+    margin-top: 10px;
+  }
+  p.desktop-p {
+    display: none;
+  }
+  .menu_wrapper .drop-down .options ul {
+    max-width: 100px;
+  }
+  .menu_wrapper .drop-down .options ul {
+    margin-top: 15px;
+  }
+  .menu_wrapper .drop-down {
+    top: 3%;
+  }
+  .primary-btn {
+    margin: 0 auto;
+    margin-bottom: 25px;
+  }
+  .inner-desktop-content {
+    display: block;
+  }
+  .goodmorning-text {
+    max-width: 100%;
+  }
+  .content-wrapper {
+    padding-left: 0;
+    margin-right: 0;
+  }
+  .box-wrapper {
+    text-align: left;
+  }
+  .main-bg-sectoin .desktop-page h2 {
+    margin-bottom: 80px;
+  }
+  .main-bg-sectoin .desktop-page h1 {
+    margin-bottom: 30px;
+  }
+  .register-form .fild-row {
+    text-align: left;
+  }
+  .goodmorning-text h2 {
+    max-width: 100%;
+  }
+  .goodmorning-text h1 {
+    text-align: center;
+  }
+  .content-wrapper .row.content-row {
+    width: 100%;
+    margin: 0;
+  }
+  .landing-content h1 {
+    text-align: center;
+  }
+  .main-bg-sectoin.add-office-page {
+    text-align: left;
+  }
+  .main-bg-sectoin.add-office-page h1 {
+    text-align: left;
+  }
+  .circle-img-wrppaer.add-office-code-circle {
+    top: 110px;
+  }
+  .office-home-left .box-img {
+    margin: 0 auto 22px;
+  }
+  .office-home-left {
+    max-width: 100%;
+  }
+  .office-home-main h1 {
+    text-align: center;
+  }
+  .office-info {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 40px;
+  }
+  .content-wrapper.office-home-right {
+    padding-top: 55px;
+  }
+  .office-home-right .box-wrapper {
+    padding: 44px 45px 48px 45px;
+  }
+  .office-home-main {
+    padding-bottom: 40px;
+  }
+  .triage-app-left {
+    margin: 0 auto;
+  }
+  .content-wrapper.triage-app-right {
+    padding: 40px 0 0 0;
+    margin: 0 auto;
+  }
+  .walkin-appointment .primary-btn {
+    margin-bottom: 0;
+  }
+  .appointment-box {
+    min-height: auto;
+  }
+  .next-step.text-right {
+    text-align: center !important;
+    margin-top: 40px;
+  }
+  .triage-symptoms-page .office-home-main h1 {
+    margin-bottom: 35px;
+  }
+  .triage-symptoms-page .office-home-main h2 {
+    margin-bottom: 5px;
+  }
+  .triage-details-left {
+    margin: 0 auto;
+  }
+  .triage-details-main h1 {
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  .triage-details-main h1 {
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  .triage-details-main h2 {
+    margin-bottom: 0;
+  }
+  .account-sign-register {
+    text-align: left;
+  }
+  .content-wrapper.list-desktop-right {
+    padding-left: 0;
+    text-align: left;
+  }
+  .modal-content {
+    text-align: left;
+  }
+  .content-wrapper.list-desktop-right {
+    padding-top: 20px;
+  }
+  .list-dotors-right .primary-btn {
+    margin-bottom: 0;
+  }
+  .waiting-room-left {
+    margin: 0 auto;
+    max-width: 350px;
+  }
+  .waiting-room-left .box-img {
+    margin: 0 auto;
+  }
+  .waiting-room-right-main {
+    padding: 0;
+  }
+  .waiting-room-left h2 br {
+    display: none;
+  }
+  .waiting-room-left h1 {
+    text-align: center;
+  }
+  .waiting-room-left h2 {
+    margin-bottom: 20px;
+  }
+  .waiting-room-right-main {
+    padding: 30px 0 0 0;
+  }
+  .waiting-room-left .primary-btn {
+    margin-top: 40px;
+  }
+  .man-img {
+    max-width: 400px;
+  }
+  .waiting-content {
+    text-align: left;
+  }
+  .incall-chat .chat-text-main {
+    max-height: 240px;
+    overflow: auto;
+  }
+  .waiting-content {
+    padding: 30px;
+  }
+  .incall-chat.waiting-content {
+    padding: 15px;
+  }
+  .incall-chat .chat-text {
+    margin-bottom: 15px;
+  }
+  .incall-chat .chat-text-main {
+    max-height: 265px;
+    overflow: auto;
+    padding: 15px 15px 60px 15px;
+  }
+  .incall-chat .type-msg {
+    width: calc(100% - 60px);
+    left: 32px;
+  }
+  .type-msg form input::placeholder {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .main-bg-sectoin h1 {
+    text-align: center;
+  }
+  .account-sign-register {
+    text-align: center;
+  }
+  .menu_wrapper .drop-down {
+    top: 4%;
+  }
+  .img-wrppaer.full-img {
+    /* position: initial;
+		margin-top: 80px; */
+    z-index: -1;
+  }
+
+  .symptoms-listing li {
+    width: 100%;
+  }
+  .register-form {
+    max-width: 336px;
+    margin: 30px auto 0;
+  }
+  .main-bg-sectoin {
+    padding: 92px 0 0 0;
+    height: calc(100vh - 89px);
+  }
+  .main-bg-sectoin .col-lg-4 {
+    padding-right: 15px;
+  }
+  .goodmorning-text h1 {
+    max-width: 400px;
+    margin: 0 auto 26px;
+  }
+  .circle-img-wrppaer {
+    right: -25px;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  .landing-content.main-bg-sectoin h1 {
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .main-bg-sectoin.add-office-page {
+    text-align: center;
+  }
+  .main-bg-sectoin.add-office-page h1 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .add-office-form {
+    display: inline-block;
+    margin: 50px 0 0 0;
+    vertical-align: middle;
+  }
+  .add-new-office-main p {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 23px;
+    color: rgba(56, 65, 124, 0.7);
+  }
+  .main-bg-sectoin.add-office-page a.secondary-btn {
+    margin: 22px 0 0 0;
+    width: 100%;
+    min-width: 285px;
+  }
+  .add-office-form .form-control::placeholder,
+  .add-office-form .form-control {
+    color: #38417c;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 20px;
+  }
+  .content-wrapper.triage-app-right {
+    max-width: 455px;
+  }
+  .symptoms-listing {
+    width: 100%;
+    padding: 20px 0 0 0;
+  }
+  .symptoms-listing:first-child {
+    padding-top: 0;
+  }
+  .triage-details-main h1 {
+    max-width: 300px;
+    margin: 0 auto 35px;
+  }
+  .triage-details-main .triage-details-left {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .triage-details-main h2 {
+    margin-bottom: 0;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  .doctor-list-left .cancel-wrapper {
+    margin-bottom: 20px;
+  }
+  .content-wrapper.list-desktop-right {
+    padding-top: 10px;
+  }
+  .accordion {
+    padding: 15px 0;
+  }
+  .waiting-main-img {
+    width: 43%;
+  }
+  .waiting-content {
+    width: 57%;
+    max-height: 392px;
+  }
+  .chat-text-main {
+    max-height: 230px;
+    overflow-y: auto;
+    overflow: scroll;
+    padding: 10px 15px 20px;
+  }
+  .chat-text {
+    margin-bottom: 15px;
+  }
+  .video-setting {
+    margin-top: 10px;
+  }
+  .type-msg {
+    width: calc(100% - 86px);
+    left: 43px;
+  }
+  .list-dotors-right > .primary-btn {
+    margin-bottom: 20px;
+  }
+  .waiting-room-main {
+    padding-bottom: 30px;
+    height: 100%;
+  }
+  .incall-chat.waiting-content {
+    max-height: 455px;
+  }
+  .incall-chat .chat-text-main {
+    max-height: 100%;
+  }
+}
+@media screen and (max-width: 767px) {
+  #jsd-widget {
+    /* bottom: 50px !important; */
+  }
+
+  footer {
+    height: 160px !important;
+  }
+  .menu_wrapper {
+    padding: 16px 0 17px 0;
+    border: transparent;
+  }
+  .logo-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  img.desktop-logo {
+    display: none;
+  }
+  img.mobile-logo {
+    display: block;
+  }
+  .drop-down-wrpper {
+    display: none;
+  }
+  h1 {
+    font-size: 36px;
+    line-height: 36px;
+  }
+  .registration-page h1 {
+    text-align: left;
+  }
+  .menu_wrapper {
+    background: #f9faff;
+  }
+  .main-bg-sectoin {
+    padding: 0 0 30px 0;
+    height: 100%;
+  }
+  .main-bg-sectoin.landing-page h2 {
+    display: none;
+  }
+  .main-bg-sectoin form {
+    margin-top: 25px;
+  }
+  .img-wrppaer {
+    bottom: 0;
+  }
+
+  /*office-Desktop-page-css*/
+  #site-topnav .navbar-toggle .menu {
+    font-size: 0;
+  }
+  #site-topnav .navbar-toggle .menu img {
+    position: relative;
+    z-index: 111;
+  }
+  .box-wrapper h2 {
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 60px;
+    margin: 7px 0;
+  }
+  .box-img {
+    width: 40px;
+    height: 40px;
+  }
+  .box-wrapper {
+    padding: 12px;
+  }
+  .box-wrapper small {
+    font-size: 13px;
+    line-height: 17px;
+  }
+  .main-bg-sectoin.desktop-page h1 {
+    max-width: 100%;
+    text-align: left;
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+  /* .main-bg-sectoin .img-wrppaer {
+	   top: 0;
+	   overflow: hidden;
+    } */
+  img.flower-img {
+    transform: rotate(-65deg);
+    max-width: 120px;
+    margin-left: 10px;
+  }
+  .menu_wrapper.desktop-wrapper {
+    background-color: #fff;
+    border-bottom: 1px solid rgba(56, 65, 124, 0.192554);
+  }
+  .circle-img-wrppaer {
+    display: none;
+  }
+  .add-office-page h1 {
+    max-width: 100%;
+    text-align: left;
+  }
+  .cancel-wrapper {
+    display: block;
+    text-align: left;
+  }
+  .man_img {
+    display: block;
+  }
+  .flower-img {
+    display: none;
+  }
+  .register-form {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .img-wrppaer.full-img .man-img {
+    display: none;
+  }
+  .mobile-leaves {
+    display: block;
+    position: absolute;
+    top: 57px;
+    right: 0;
+    z-index: -1;
+  }
+  .registration-page .mobile-leaves {
+    top: 0px;
+  }
+  .registration-page {
+    padding-top: 55px;
+  }
+  .registration-page .img-wrppaer.full-img {
+    display: none;
+  }
+  .primary-btn {
+    font-size: 18px;
+  }
+  .goodmorning-text h1 {
+    max-width: 340px !important;
+    margin: 45px 0 41px !important;
+  }
+  #site-topnav .navbar-brand {
+    max-width: 90px;
+  }
+  .content-row .col-6 {
+    padding: 0 6px;
+  }
+  .add-new-office h2 {
+    max-width: 91px;
+  }
+  .content-row [class*="col-"] {
+    margin-bottom: 12px;
+  }
+  .navbar-brand .mobile-logo {
+    max-width: 150px;
+    margin-bottom: 20px;
+  }
+  .landing-page-main {
+    padding: 40px 0 0 0;
+  }
+  .navbar-brand.mobile-navbar {
+    margin: 0 0 10px 0;
+  }
+  .landing-content.main-bg-sectoin h1 {
+    margin-bottom: 60px;
+  }
+  .landing-content .img-wrppaer.full-img .man-img,
+  .add-office-page .img-wrppaer .man_img {
+    display: block;
+    max-width: 250px;
+  }
+  .landing-content .img-wrppaer.full-img,
+  .add-office-page .img-wrppaer {
+    bottom: -35px;
+  }
+  .main-bg-sectoin.add-office-page a.secondary-btn {
+    font-size: 18px;
+  }
+  .main-bg-sectoin.add-office-page {
+    text-align: left;
+    padding: 25px 0 0 0;
+  }
+  .cancel-wrapper {
+    margin-bottom: 20px;
+  }
+  .add-new-office-main p {
+    display: none;
+  }
+  .main-bg-sectoin.add-office-page h1 {
+    text-align: left;
+    margin-bottom: 0;
+  }
+  .add-office-form {
+    margin-top: 0;
+  }
+  .office-home-left .dots {
+    height: 17px;
+    width: 17px;
+    right: -2px;
+    bottom: 0;
+  }
+  .office-home-left .box-img {
+    width: 60px;
+    height: 60px;
+    margin: 0;
+    float: left;
+  }
+  .office-home-left h1 {
+    font-size: 24px;
+    line-height: 23px;
+    letter-spacing: -0.6px;
+    margin: 0 !important;
+    max-width: 110px !important;
+    display: inherit;
+  }
+  .office-home-left .name-designation h2 {
+    font-size: 13px;
+    line-height: 17px;
+    letter-spacing: -0.325px;
+  }
+  .name-designation {
+    display: table;
+    text-align: left;
+    padding-left: 20px;
+  }
+  .office-info {
+    float: left;
+    padding: 0 0 0 35px;
+    text-align: left;
+  }
+  .office-info:first-child {
+    padding-left: 0;
+  }
+  .office-info h3 {
+    font-size: 13px;
+    letter-spacing: -0.325px;
+    line-height: 17px;
+    margin-bottom: 5px;
+  }
+  .office-home-left h2 {
+    margin-bottom: 40px;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: -0.45px;
+  }
+  .office-icons img {
+    max-width: 32px;
+  }
+  .office-icons {
+    height: 55px;
+    width: 55px;
+    line-height: 55px;
+  }
+  .office-home-right .box-wrapper {
+    padding: 20px;
+  }
+  .office-home-right .col-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .office-home-info-right {
+    max-width: 100%;
+    position: relative;
+  }
+  .office-home-info h2 {
+    font-size: 24px;
+    line-height: 23px;
+    margin: 0;
+  }
+  .office-home-info p {
+    margin-top: 3px;
+  }
+  .counter {
+    left: auto;
+    right: 0;
+    text-align: center;
+    bottom: 16px;
+    top: auto;
+  }
+  .main-bg-sectoin.less-space {
+    padding-top: 25px;
+  }
+  .ReactModal__Content {
+    width: 75%;
+    border-radius: 8px;
+  }
+
+  .office-home-right .content-row [class*="col-"] {
+    margin-bottom: 12px;
+  }
+  .office-home-right .content-row .col-6 {
+    padding: 0;
+  }
+  .office-home-left .cancel-wrapper {
+    margin-bottom: 35px;
+  }
+  .triage-app-left {
+    max-width: 300px;
+    margin: 0;
+  }
+  .office-home-main h1 {
+    margin: 20px 0 !important;
+  }
+  .content-wrapper.triage-app-right {
+    padding: 10px 0 0 0;
+  }
+  .content-wrapper.triage-app-right {
+    max-width: 100%;
+  }
+  .triage-app-right .appointment-box {
+    padding: 0;
+    background: transparent;
+    box-shadow: none;
+  }
+  .schedule-appointment h3 {
+    float: left;
+  }
+  .schedule-appointment {
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(56, 65, 124, 0.2);
+    border-radius: 8px;
+    padding: 20px 15px;
+    height: 56px;
+  }
+  .schedule-appointment h4 {
+    text-align: right;
+  }
+  .triage-appoint-page .walkin-appointment .primary-btn {
+    max-width: 100%;
+    text-align: left;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    padding: 18px 15px;
+    height: 56px;
+  }
+  .next-step .primary-btn {
+    max-width: 100%;
+    height: 56px;
+    line-height: 56px;
+    margin-bottom: 0;
+  }
+  .triage-appoint-page .next-step {
+    margin-top: 114px;
+  }
+  .triage-appoint-page .office-home-main {
+    padding-bottom: 0;
+  }
+  .triage-symptoms-page .triage-app-left h2 {
+    display: none;
+  }
+  .triage-symptoms-page .triage-app-left h1 {
+    margin-bottom: 30px !important;
+  }
+  .triage-details-main h2,
+  .word-limit {
+    display: none;
+  }
+  .triage-details-main .triage-details-left {
+    max-width: 300px;
+    margin: 0;
+  }
+  .triage-details-main .appointment-box {
+    box-shadow: 0px 0px 14px rgba(56, 65, 124, 0.17);
+    margin-bottom: 30px;
+  }
+  .triage-details-main form {
+    margin-top: 0;
+  }
+  .office-home-main {
+    padding-bottom: 0;
+  }
+  .next-step .primary-btn.small {
+    max-width: 100%;
+  }
+  .account-sign-register {
+    text-align: left;
+  }
+  .accordion .card-header .box-profile {
+    margin-left: 10px;
+  }
+  .content-wrapper.list-desktop-right button {
+    max-width: 100%;
+    margin-bottom: 0;
+  }
+  .accordion .card {
+    padding: 15px;
+  }
+  .accordion h2 {
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+  .accordion small {
+    font-size: 13px;
+    margin-bottom: 5px;
+  }
+  .primary-btn {
+    height: 56px;
+  }
+  .modal-content .modal-header {
+    padding: 20px 20px 5px;
+  }
+  .modal-content .modal-footer {
+    border: 0;
+    padding: 0 20px 20px;
+  }
+  .list-dotors-right .primary-btn {
+    margin: 0;
+  }
+  .list-dotors-right .dots {
+    right: -1px;
+    bottom: -4px;
+  }
+  .accordion .card-body h2 {
+    font-size: 15px;
+    margin-bottom: 0;
+    line-height: 19px;
+  }
+  .accordion .card-body ul li {
+    padding: 0 20px 0 0;
+  }
+  .modal-dialog {
+    max-width: 282px;
+  }
+  .modal {
+    width: 95%;
+  }
+  .waiting-room-left {
+    margin: 0;
+    max-width: 100%;
+  }
+  .waiting-room-left .name-designation {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+  }
+  .waiting-room-left .name-designation h1 {
+    text-align: center;
+  }
+  .main-bg-sectoin.desktop-page .waiting-room-left h1 {
+    font-size: 24px;
+    line-height: 23px;
+    margin: 25px 0 12px 0;
+  }
+  .waiting-room-left h2 {
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 18px;
+  }
+  .cancel-wrapper .arrow_icon {
+    margin-top: -3px;
+  }
+  .waiting-room-left .primary-btn {
+    margin: 0px auto;
+  }
+  .landing-page .primary-btn {
+    font-size: 24px;
+    box-shadow: 0px 2px 16px rgba(39, 40, 42, 0.118608);
+    height: 64px;
+  }
+  .name-designation.office-home-heading h1 {
+    margin: 0 0 5px 0 !important;
+  }
+  .register-form .primary-btn {
+    font-size: 18px;
+  }
+  .add-office-page {
+    padding-bottom: 20px !important;
+  }
+  .main-bg-sectoin.add-office-page .form-group .form-control {
+    padding: 18px 51px 21px 21px;
+  }
+  /*** waiting mobile css ***/
+  .tabbing-sec .nav-item {
+    margin-left: 50px;
+  }
+  .tabbing-sec .nav-link {
+    padding: 0;
+    border: 0;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background: transparent;
+    text-align: center;
+    line-height: 49px;
+    position: relative;
+  }
+  .tabbing-sec .nav-tabs .nav-item.show .nav-link,
+  .tabbing-sec .nav-tabs .nav-link.active {
+    background: rgba(56, 65, 124, 0.14);
+  }
+  .tabbing-sec .nav-item:first-child {
+    margin-left: 0;
+  }
+  .waiting-img {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  .tabbing-sec .nav-tabs {
+    border-bottom: 0;
+    margin-top: 36px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+  }
+  .chat-text-main {
+    max-height: 100%;
+    overflow: inherit;
+    padding: 0 5px;
+  }
+  .waiting-content {
+    width: 100%;
+    max-height: 100%;
+    background: transparent;
+    box-shadow: none;
+    padding: 0;
+    height: 100%;
+  }
+  .type-msg {
+    width: 100%;
+    position: static;
+    margin: 77px 0 0 0;
+  }
+  .type-msg.with-close form {
+    margin-top: 0;
+    width: calc(100% - 65px);
+  }
+  .close-chat {
+    height: 50px;
+    width: 50px;
+  }
+  .type-msg .common-input {
+    height: 50px;
+    padding: 15px;
+  }
+  .volume-bar,
+  .player {
+    width: 100%;
+  }
+  .source {
+    width: 100%;
+    padding: 0;
+  }
+  .video-setting {
+    padding: 23px;
+    position: relative;
+  }
+  .video-setting::after {
+    position: absolute;
+    left: 25px;
+    bottom: -24px;
+    border-top: 12px solid #fff;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    content: "";
+  }
+  .source.left-s,
+  .source.right-s {
+    padding: 0;
+  }
+  .tabbing-sec {
+    text-align: left;
+    padding-bottom: 20px;
+    width: 280px;
+    margin: 0 auto;
+  }
+  .source.right-s {
+    padding-top: 20px;
+  }
+  .vol-info {
+    margin-bottom: 10px;
+  }
+  .waiting-ready-mobile {
+    margin-bottom: 20px;
+  }
+  .incall-chat .type-msg {
+    width: calc(100% - 30px);
+    margin-left: 10px;
+    margin: 0 0 0px 10px;
+    padding-bottom: 30px;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    margin-left: 0;
+  }
+  .incall-chat.waiting-content {
+    max-height: 100%;
+    position: absolute;
+    top: 150px;
+    left: 0;
+    background: #f9faff;
+    height: 100% !important;
+  }
+  .incall-chat .chat-text-main {
+    padding-bottom: 10px;
+  }
+  .setting-tabs-main .tab-content {
+    position: fixed;
+    top: 160px;
+    z-index: 999;
+    left: auto;
+    width: 280px;
+    margin: 0 auto;
+  }
+  .video-setting h2 {
+    font-size: 24px;
+    line-height: 23px;
+  }
+}
+@media screen and (max-device-height: 414px) and (orientation: landscape) {
+  .setting-tabs-main .tab-content {
+    position: absolute;
+    top: -60px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .man-img {
+    max-width: 80%;
+  }
+  .modal-dialog {
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 479px) {
+}
+
+@media screen and (max-width: 375px) {
+  .waiting-img {
+    max-width: 104px;
+  }
+  .setting-tabs-main .tab-content {
+    top: 0;
+  }
+}
+@media (min-width: 1250px) {
+}
+@media screen and (max-width: 1300px) {
+  .inbox-right {
+    padding-left: 50px;
+  }
+  .remote-participant {
+    height: 545px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .inbox-page-main .cancel-wrapper {
+    text-align: center;
+  }
+  .inbox-right {
+    text-align: left;
+    padding: 40px 30px 40px 0;
+  }
+  .inbox-page-main .cancel-wrapper + h1 {
+    text-align: center;
+  }
+  .new-msg-btn .primary-btn {
+    max-width: 100%;
+  }
+
+  .remote-participant {
+    height: 455px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .chat-window .type-msg.with-close.d-lg-none form {
+    width: 100%;
+  }
+
+  .remote-participant {
+    height: 515px;
+  }
+
+  .end-call-button {
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .version2-menu #site-topnav .navbar-brand {
+    max-width: 115px;
+  }
+  .inbox-page-main .cancel-wrapper + h1 {
+    display: none;
+  }
+  .inbox-page-main .cancel-wrapper {
+    text-align: left;
+  }
+  .inbox-right {
+    text-align: left;
+    padding: 0;
+  }
+  .chat-show .new-msg {
+    display: none;
+  }
+  .chat-window {
+    display: none;
+    margin-top: -65px;
+  }
+  .chat-show .chat-window {
+    display: block;
+  }
+  .chat-window .type-msg {
+    margin: 50px 0 0 0;
+  }
+  .show-mobile {
+    display: block !important;
+  }
+  .hide-mobile {
+    display: none !important;
+  }
+  .chat-window .type-msg {
+    width: 100%;
+  }
+  .chat-window .type-msg.with-close form {
+    width: calc(100% - 70px);
+  }
+  /* .cancel-wrapper.show-mobile {
+        background: #fff;
+    } */
+  .cancel-wrapper.show-mobile {
+    display: none !important;
+  }
+  .chat-show .cancel-wrapper.show-mobile {
+    display: block !important;
+    background: #fff;
+    position: absolute;
+    top: -26px;
+    left: 0;
+    width: 100%;
+    height: 65px;
+    box-shadow: 0px 6px 14px rgba(56, 65, 124, 0.17);
+    padding: 25px 15px 25px 15px;
+    z-index: 999;
+  }
+  .show-inbox .new-msg {
+    display: block;
+  }
+  .show-inbox .chat-window {
+    display: none;
+  }
+  .show-inbox .cancel-wrapper.show-mobile {
+    display: none !important;
+  }
+  .type-msg.with-close.d-none.show-mobile {
+    margin-top: 15px;
+    padding: 0 30px;
+    /* display: none !important; */
+  }
+  .chat-show .type-msg.with-close.d-none.show-mobile {
+    display: block !important;
+  }
+  .new-message-modal {
+    /* display: none !important; */
+  }
+  .inbox-modal.modal-open {
+    background: transparent;
+  }
+  .inbox-modal .modal-backdrop {
+    background-color: transparent;
+    display: none;
+  }
+  .new-msg-mobile {
+    display: none !important;
+  }
+  .modal-open .new-msg-mobile {
+    display: block !important;
+    padding: 0 15px;
+  }
+  .modal-open .new-msg,
+  .modal-open .type-msg.with-close.d-none.show-mobile {
+    display: none !important;
+  }
+  .container.inbox-page-main {
+    max-width: 100%;
+  }
+  .cancel-wrapper.message-window {
+    display: none !important;
+  }
+  .modal-open .cancel-wrapper.message-window {
+    display: block !important;
+  }
+  .modal-open .inbox-wrapper {
+    display: none !important;
+  }
+  .new-msg-mobile form .form-group {
+    background: #ffffff;
+    border: 1px solid #d2d4de;
+    border-radius: 8px;
+    padding: 8px 15px;
+    box-shadow: 0px 0px 14px rgba(56, 65, 124, 0.17);
+    margin-bottom: 12px;
+  }
+  .new-msg-mobile form .form-group label {
+    font-size: 13px;
+    line-height: 17px;
+    color: rgba(56, 65, 124, 0.5);
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  .new-msg-mobile form input[type="text"] {
+    width: 100%;
+    color: #38417c;
+  }
+  .new-msg-mobile form .form-group {
+    background: #ffffff;
+    border: 1px solid #d2d4de;
+    border-radius: 8px;
+    padding: 8px 15px;
+    box-shadow: 0px 0px 14px rgba(56, 65, 124, 0.17);
+    margin-bottom: 12px;
+  }
+  .new-msg-mobile form textarea {
+    border: 0;
+    width: 100%;
+    resize: none;
+    color: rgba(56, 65, 124, 0.5);
+    font-size: 18px;
+    min-height: 150px;
+    padding-top: 15px;
+  }
+  .new-msg-mobile .btn {
+    width: 100%;
+    font-size: 18px;
+    height: 56px;
+    max-width: 100%;
+    margin-top: 20px;
+  }
+  .new-msg-mobile .btn:focus {
+    box-shadow: none;
+  }
+  .new-msg-mobile h1.modal-title {
+    margin: 0;
+  }
+}
+@media screen and (max-device-height: 414px) and (orientation: landscape) {
+}
+@media screen and (max-width: 575px) {
+  .chat-window {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 479px) {
+}
+
+@media screen and (max-width: 375px) {
+}

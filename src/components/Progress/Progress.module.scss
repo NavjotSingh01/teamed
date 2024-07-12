@@ -1,0 +1,37 @@
+@import '../../assets/styles/_variables.scss';
+
+.progressMobile {
+  position: relative;
+  width: 100%;
+
+  &__scale {
+    height: 6px;
+    background-color: rgba($color_blue, 0.2);
+  }
+
+  &__progressLevel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 6px;
+    background-color: $color_blue;
+  }
+}
+
+.progressDesktop {
+  position: relative;
+  width: calc(100% - 12px);
+
+  &__scale {
+    height: 3px;
+    background-color: rgba($color_blue, 0.2);
+  }
+
+  &__progressLevel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 3px;
+    background-color: $color_blue;
+  }
+}

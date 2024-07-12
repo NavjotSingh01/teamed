@@ -1,0 +1,267 @@
+@import "../../assets/styles/_variables.scss";
+
+// *** This styles are going to be deleted *** //
+
+// Profile Page
+
+.profile {
+  display: flex;
+  @media (max-width: 991px) {
+    flex-direction: column;
+  }
+
+  &__content {
+    min-height: calc(100vh - 370px);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 30%;
+    @media (max-width: 991px) {
+      width: 100%;
+    }
+    h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+      color: #343642;
+    }
+    h3 {
+      font-weight: 500;
+      font-size: 24px;
+      color: #38417c;
+    }
+    .head__content {
+      max-width: 280px;
+      font-size: 18px;
+      font-weight: 500;
+    }
+  }
+}
+
+// Symptoms List Page
+
+.symptoms {
+  display: flex;
+  @media (max-width: 991px) {
+    display: block;
+  }
+
+  &__content {
+    margin-top: 30px !important;
+    min-height: calc(100vh - 370px);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 370px;
+    @media (max-width: 1199px) {
+      width: 260px;
+    }
+    @media (max-width: 991px) {
+      width: 100%;
+      min-height: auto;
+    }
+    &:last-child {
+      margin-left: 130px;
+      width: calc(100% - 370px);
+      @media (max-width: 1199px) {
+        margin-left: 0;
+        width: 100%;
+      }
+    }
+    &__buttons {
+      border: 2px solid #38417c !important;
+      border-radius: 8px !important;
+      overflow: hidden !important;
+      margin-bottom: 20px !important;
+      button {
+        width: 50% !important;
+        padding: 20px !important;
+        text-align: center !important;
+        letter-spacing: -0.25px !important;
+        font-size: 19px !important;
+        background-color: #fff !important;
+        border: 0px !important;
+        &:first-child {
+          border-right: 2px solid #38417c !important;
+        }
+      }
+    }
+    h2 {
+      color: #38417c;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 22px;
+      letter-spacing: -0.25px;
+      margin-top: 0;
+    }
+    textarea {
+      border: 2px solid #d1d4e3;
+      border-radius: 12px;
+      height: 200px;
+      padding: 20px;
+      &:focus {
+        outline: none;
+      }
+    }
+    label {
+      position: relative;
+      padding-left: 30px;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 21px;
+      margin-bottom: 10px;
+      span {
+        font-size: 14px;
+      }
+    }
+    [type="checkbox"]:checked,
+    [type="checkbox"]:not(:checked),
+    [type="radio"]:checked,
+    [type="radio"]:not(:checked) {
+      position: absolute;
+      left: -9999px;
+    }
+    [type="checkbox"]:not(:checked) + label:before,
+    [type="radio"]:not(:checked) + label:before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 2px;
+      width: 20px;
+      height: 20px;
+      background-size: cover;
+      background-image: url("../../assets/images/uncheked.svg");
+    }
+    [type="checkbox"]:checked + label:before,
+    [type="radio"]:checked + label:before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 2px;
+      width: 20px;
+      height: 20px;
+      background-size: cover;
+      background-image: url("../../assets/images/full-check-icon.svg");
+    }
+  }
+}
+
+// Confirmation
+
+.confirmation {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  // height: calc(100vh - 90px);
+  width: 100vw !important;
+  .container {
+    display: none;
+  }
+  &__container {
+    display: flex !important;
+    @media (max-width: 991px) {
+      display: block !important;
+    }
+  }
+
+  &__title {
+    margin-top: 50px !important;
+    margin-bottom: 80px !important;
+    text-align: center !important;
+    h2 {
+      font-size: 55px !important;
+      line-height: 60px !important;
+      margin-top: 15px !important;
+      margin-bottom: 15px !important;
+      color: #38417c !important;
+      @media (max-width: 991px) {
+        max-width: 380px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        font-size: 42px !important;
+        line-height: 44px !important;
+      }
+    }
+    p {
+      font-size: 28px !important;
+      line-height: 32px !important;
+      color: #343642 !important;
+      margin-top: 0 !important;
+      @media (max-width: 991px) {
+        font-size: 20px !important;
+        line-height: 23px !important;
+      }
+    }
+  }
+
+  &__content {
+    padding: 20px !important;
+    width: 50% !important;
+    @media (max-width: 991px) {
+      width: 100% !important;
+      padding: 0 !important;
+      text-align: center !important;
+    }
+    &:first-child {
+      display: flex !important;
+      justify-content: flex-end !important;
+      @media (max-width: 991px) {
+        justify-content: center !important;
+        overflow: hidden !important;
+      }
+    }
+    &:last-child {
+      img {
+        margin-right: 15px !important;
+      }
+      button {
+        height: 65px !important;
+        width: 263px !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        border: 1px solid #38417c !important;
+        background: #38417c !important;
+        font-weight: 500 !important;
+        font-size: 24px !important;
+        line-height: 22px !important;
+        border-radius: 12px !important;
+        letter-spacing: -0.25px !important;
+        color: #fff !important;
+        &:hover,
+        &:focus {
+          background-color: rgba(56, 64, 124, 0.7) !important;
+          color: #fff !important;
+          border-color: rgba(56, 64, 124, 0.7) !important;
+        }
+        @media (max-width: 991px) {
+          margin: 0 auto;
+        }
+      }
+    }
+    p {
+      color: #38417c !important;
+      font-size: 18px !important;
+      line-height: 18px !important;
+      letter-spacing: -0.45px !important;
+      font-weight: 500 !important;
+      margin-bottom: 10px !important;
+    }
+    h3 {
+      color: #343642 !important;
+      font-size: 36px !important;
+      line-height: 38px !important;
+      max-width: 300px !important;
+      letter-spacing: -0.9px !important;
+      margin: 0 !important;
+      margin-bottom: 50px !important;
+      @media (max-width: 991px) {
+        margin: 0 auto !important;
+        margin-bottom: 50px !important;
+      }
+    }
+    a {
+      margin-top: 25px !important;
+    }
+  }
+}

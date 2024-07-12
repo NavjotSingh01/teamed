@@ -1,0 +1,29 @@
+.edit-profile-page {
+  font-family: "ProximaSoft-Regular";
+  h1 {
+    color: #343642;
+  }
+  .primary-btn {
+    margin-bottom: 0;
+    border-radius: 12px;
+    font-family: "EuclidFlex-Medium";
+    letter-spacing: -0.25px;
+  }
+  input#profile_image {
+    display: none;
+  }
+  .cancel-wrapper {
+    cursor: pointer;
+    a .fas {
+      font-size: 20px;
+    }
+  }
+  .user-detail-popup {
+    &:first-child {
+      margin-bottom: 20px;
+    }
+  }
+  .error {
+    color: red;
+  }
+}

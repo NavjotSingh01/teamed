@@ -1,0 +1,127 @@
+.covid-testing {
+  .options {
+    .container {
+      @media (max-width: 991px) {
+        padding: 0;
+      }
+    }
+    &__content {
+      display: flex;
+      flex-direction: column;
+      padding: 30px;
+      width: 100%;
+      @media (max-width: 991px) {
+        padding: 0;
+      }
+
+      @media screen and (min-width: 1200px) {
+        flex-direction: row;
+        justify-content: space-between;
+        min-height: calc(100vh - 370px) !important;
+      }
+    }
+
+    &__clinicInfo {
+      max-width: 380px;
+      @media (max-width: 1200px) {
+        max-width: 100%;
+        margin-bottom: 35px;
+      }
+      @media (max-width: 991px) {
+        margin: 0 auto;
+        overflow: hidden;
+        width: 100%;
+        .options__info {
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+      }
+    }
+
+    &__appointmentInfo {
+      width: calc(100% - 380px);
+      padding-left: 120px;
+      @media (max-width: 1435px) {
+        width: calc(100% - 57px);
+      }
+      @media (max-width: 1200px) {
+        padding-left: 20px;
+      }
+      @media (max-width: 1024px) {
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 100%;
+      }
+    }
+
+    &__nav {
+      border: 2px solid #38417c;
+      border-radius: 8px;
+      overflow: hidden;
+      margin-bottom: 43px;
+      button {
+        width: 50%;
+        padding: 25px;
+        text-align: center;
+        letter-spacing: -0.25px;
+        font-size: 19px;
+        color: #38417c !important;
+        background-color: #fff;
+        border: 0px;
+        @media (max-width: 991px) {
+          padding: 10px;
+          font-size: 16px;
+        }
+      }
+    }
+
+    .calendar-wrapper {
+      display: flex;
+      @media (max-width: 767px) {
+        flex-direction: column;
+      }
+      .soonest-date {
+        width: calc(100% - 400px);
+        margin-left: 80px;
+        @media (max-width: 767px) {
+          margin-left: 0;
+          width: 100%;
+        }
+        h4 {
+          text-align: center;
+          letter-spacing: -0.25px;
+          color: #38417c;
+          font-size: 24px;
+          margin-bottom: 30px;
+          margin-top: 18px;
+          @media (max-width: 767px) {
+            margin-bottom: 10px;
+          }
+        }
+        button {
+          display: block;
+          font-size: 19px;
+          border: 2px solid #d1d4e3;
+          padding: 20px;
+          border-radius: 8px;
+          text-align: center;
+          margin-bottom: 12px;
+          transition: 0.4s;
+          width: 100%;
+          transition: 0.4s;
+          background-color: #fff;
+          @media (max-width: 767px) {
+            padding: 10px;
+            font-size: 16px;
+          }
+          &:hover,
+          &:focus {
+            background: #eef0fc;
+            border-color: #38417c;
+            color: #38417c;
+          }
+        }
+      }
+    }
+  }
+}

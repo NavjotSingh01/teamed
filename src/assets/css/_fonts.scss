@@ -1,0 +1,171 @@
+// Euclid Flex
+
+@font-face {
+  font-family: 'Euclid Flex';
+  src: url('../fonts/EuclidFlex-Thin.eot');
+  src: local('../fonts/Euclid Flex Thin'), local('EuclidFlex-Thin'),
+    url('../fonts/EuclidFlex-Thin.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/EuclidFlex-Thin.woff2') format('woff2'),
+    url('../fonts/EuclidFlex-Thin.woff') format('woff'),
+    url('../fonts/EuclidFlex-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Euclid Flex';
+  src: url('../fonts/EuclidFlex-UltraLight.eot');
+  src: local('Euclid Flex UltraLight'), local('EuclidFlex-UltraLight'),
+    url('../fonts/EuclidFlex-UltraLight.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/EuclidFlex-UltraLight.woff2') format('woff2'),
+    url('../fonts/EuclidFlex-UltraLight.woff') format('woff'),
+    url('../fonts/EuclidFlex-UltraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Euclid Flex';
+  src: url('../fonts/EuclidFlex-Light.eot');
+  src: local('Euclid Flex Light'), local('EuclidFlex-Light'),
+    url('../fonts/EuclidFlex-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/EuclidFlex-Light.woff2') format('woff2'),
+    url('../fonts/EuclidFlex-Light.woff') format('woff'),
+    url('../fonts/EuclidFlex-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Euclid Flex';
+  src: url('../fonts/EuclidFlex-Regular.eot');
+  src: local('Euclid Flex Regular'), local('EuclidFlex-Regular'),
+    url('../fonts/EuclidFlex-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/EuclidFlex-Regular.woff2') format('woff2'),
+    url('../fonts/EuclidFlex-Regular.woff') format('woff'),
+    url('../fonts/EuclidFlex-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Euclid Flex';
+  src: url('../fonts/EuclidFlex-Medium.eot');
+  src: local('Euclid Flex Medium'), local('EuclidFlex-Medium'),
+    url('../fonts/EuclidFlex-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/EuclidFlex-Medium.woff2') format('woff2'),
+    url('../fonts/EuclidFlex-Medium.woff') format('woff'),
+    url('../fonts/EuclidFlex-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Euclid Flex';
+  src: url('../fonts/EuclidFlex-SemiBold.eot');
+  src: local('Euclid Flex SemiBold'), local('EuclidFlex-SemiBold'),
+    url('../fonts/EuclidFlex-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/EuclidFlex-SemiBold.woff2') format('woff2'),
+    url('../fonts/EuclidFlex-SemiBold.woff') format('woff'),
+    url('../fonts/EuclidFlex-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Euclid Flex';
+  src: url('../fonts/EuclidFlex-Bold.eot');
+  src: local('Euclid Flex Bold'), local('EuclidFlex-Bold'),
+    url('../fonts/EuclidFlex-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/EuclidFlex-Bold.woff2') format('woff2'),
+    url('../fonts/EuclidFlex-Bold.woff') format('woff'),
+    url('../fonts/EuclidFlex-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+// Proxima Soft
+
+@font-face {
+  font-family: 'Proxima Soft';
+  src: url('../fonts/ProximaSoft-Thin.eot');
+  src: local('Proxima Soft Thin'), local('ProximaSoft-Thin'),
+    url('../fonts/ProximaSoft-Thin.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ProximaSoft-Thin.woff2') format('woff2'),
+    url('../fonts/ProximaSoft-Thin.woff') format('woff'),
+    url('../fonts/ProximaSoft-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Soft';
+  src: url('../fonts/ProximaSoft-Light.eot');
+  src: local('Proxima Soft Light'), local('ProximaSoft-Light'),
+    url('../fonts/ProximaSoft-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ProximaSoft-Light.woff2') format('woff2'),
+    url('../fonts/ProximaSoft-Light.woff') format('woff'),
+    url('../fonts/ProximaSoft-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Soft';
+  src: url('../fonts/ProximaSoft-Regular.eot');
+  src: local('Proxima Soft Regular'), local('ProximaSoft-Regular'),
+    url('../fonts/ProximaSoft-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ProximaSoft-Regular.woff2') format('woff2'),
+    url('../fonts/ProximaSoft-Regular.woff') format('woff'),
+    url('../fonts/ProximaSoft-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Soft';
+  src: url('../fonts/ProximaSoft-Medium.eot');
+  src: local('Proxima Soft Medium'), local('ProximaSoft-Medium'),
+    url('../fonts/ProximaSoft-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ProximaSoft-Medium.woff2') format('woff2'),
+    url('../fonts/ProximaSoft-Medium.woff') format('woff'),
+    url('../fonts/ProximaSoft-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Soft';
+  src: url('../fonts/ProximaSoft-SemiBold.eot');
+  src: local('Proxima Soft SemiBold'), local('ProximaSoft-SemiBold'),
+    url('../fonts/ProximaSoft-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ProximaSoft-SemiBold.woff2') format('woff2'),
+    url('../fonts/ProximaSoft-SemiBold.woff') format('woff'),
+    url('../fonts/ProximaSoft-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Soft';
+  src: url('../fonts/ProximaSoft-Bold.eot');
+  src: local('Proxima Soft Bold'), local('ProximaSoft-Bold'),
+    url('../fonts/ProximaSoft-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ProximaSoft-Bold.woff2') format('woff2'),
+    url('../fonts/ProximaSoft-Bold.woff') format('woff'),
+    url('../fonts/ProximaSoft-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Soft';
+  src: url('../fonts/ProximaSoft-Black.eot');
+  src: local('Proxima Soft Black'), local('ProximaSoft-Black'),
+    url('../fonts/ProximaSoft-Black.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ProximaSoft-Black.woff2') format('woff2'),
+    url('../fonts/ProximaSoft-Black.woff') format('woff'),
+    url('../fonts/ProximaSoft-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}

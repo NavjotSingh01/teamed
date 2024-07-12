@@ -1,0 +1,8 @@
+
+@font-face {
+  font-family: 'EuclidFlex-Regular';
+  src: url('EuclidFlex-Regular.eot?#iefix') format('embedded-opentype'),  url('EuclidFlex-Regular.otf')  format('opentype'),
+	     url('EuclidFlex-Regular.woff') format('woff'), url('EuclidFlex-Regular.ttf')  format('truetype'), url('EuclidFlex-Regular.svg#EuclidFlex-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

@@ -1,0 +1,77 @@
+@import "../../assets/styles/_variables.scss";
+
+.footer {
+  height: 90px !important;
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 38px !important;
+    height: 245px !important;
+    border-top: $border_primary_light;
+  }
+
+  &__linksWrap {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    height: 90px !important;
+
+    @media screen and (min-width: 1200px) {
+      margin-bottom: 55px !important;
+      height: auto !important;
+    }
+  }
+
+  &__prevPageLink,
+  &__nextPageLink {
+    display: flex !important;
+    align-items: center !important;
+    padding: 0 22px !important;
+    height: 48px !important;
+    font-family: $font_family_secondary !important;
+    font-weight: 500 !important;
+    font-size: 20px !important;
+    line-height: 23px !important;
+    letter-spacing: -0.25px !important;
+    border-radius: 12px !important;
+    @media (max-width: 767px) {
+      padding: 0 12px !important;
+      font-size: 14px !important;
+      height: 38px !important;
+    }
+  }
+
+  &__prevPageLink {
+    color: $color_blue !important;
+    background-color: $color_white !important;
+    border: $border_primary_middle !important;
+  }
+
+  &__nextPageLink {
+    color: $color_white !important;
+    background-color: $color_blue !important;
+  }
+
+  &__prevPageIcon {
+    margin-right: 10px !important;
+  }
+
+  &__nextPageIcon {
+    margin-left: 10px !important;
+  }
+
+  &__progress_mobile {
+    display: block;
+
+    @media screen and (min-width: 1200px) {
+      display: none;
+    }
+  }
+
+  &__progress_desktop {
+    display: none;
+
+    @media screen and (min-width: 1200px) {
+      display: block;
+    }
+  }
+}

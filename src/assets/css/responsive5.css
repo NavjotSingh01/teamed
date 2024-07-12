@@ -1,0 +1,206 @@
+@media screen and (max-width:1366px) {
+.symp-timelines{
+	min-height: 400px;
+}
+}
+@media screen and (max-width:1199px) {
+.app-confirmed h1,.completed-questionnaire h1 {
+	font-size: 41px;
+	line-height: 44px;
+}
+.main-bg-sectoin.app-confirmed-main,.main-bg-sectoin.c-questionary-main{
+	padding:60px 0 50px 0;
+}
+.completed-questionnaire h1 img {
+	max-width: 28px;
+}
+}
+@media screen and (max-width: 991px) {
+.select-visitor .who-visited h1 {
+    max-width: 100% !important;
+    font-size: 55px !important;
+    line-height: 60px !important;
+}
+.building-profile {
+	max-width: 480px;
+	margin: 0 auto 45px;
+}
+.select-visitor .main {
+	max-width: 480px;
+	margin: 0 auto;
+}
+.building-profile .primary-btn {
+    max-width: 100%;
+}
+.appointment .app-confirmed h1,.completed-questionnaire h1 {
+	display: block !important;
+	text-align: left;
+	max-width: 100% !important;
+	font-size: 55px !important;
+	line-height: 60px !important;
+	margin-bottom: 45px;
+}
+.appointment .app-confirmed h1 br,.completed-questionnaire h1 br{
+    display: block;
+  }
+.app-confirmed-main.main-bg-sectoin,.c-questionary-main.main-bg-sectoin {
+	padding: 40px 0 0 0;
+	/* height: calc(100vh - 40px); */
+	height: 100%;
+}
+.completed-questionnaire h1 img {
+	max-width: 42px;
+}
+.question-compl .primary-btn {
+	min-width: 210px;
+	padding: 10px;
+	width: 210px;
+	line-height: 21px;
+}
+.ques-left {
+	width: calc(100% - 220px);
+}
+.container.completed-questionnaire {
+	padding: 0 50px;
+}
+.booking-location-right {
+	margin-top: 65px;
+}
+.symp-timelines .mt-5.s-toms {
+	-moz-flex-direction: column;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
+.symp-timelines {
+	margin: 0 !important;
+}
+.symp-timelines {
+	min-height: 600px;
+}
+}
+@media screen and (max-width: 767px) {
+    .select-visitor .who-visited h1 {
+        font-size: 42px !important;
+        line-height: 44px !important;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+.building-profile {
+	max-width: 100%;
+	margin: 0 auto 20px;
+}
+.select-visitor .main {
+	max-width:100%;
+}
+.appointment .app-confirmed h1,.completed-questionnaire h1{
+	font-size: 42px !important;
+	line-height: 44px !important;
+}
+.app-con-right {
+    padding: 20px;
+}
+.virtual-wait-room p{
+    text-align: center;
+}
+.add-calendar-cancel-appt li {
+	float: left;
+	width: 100%;
+}
+.add-calendar-cancel-appt .redbtn {
+    margin-top: 15px;
+}
+.triag-details-main {
+	margin-bottom: 15px;
+}
+.app-confirmed-main.main-bg-sectoin,.main-bg-sectoin.c-questionary-main {
+	padding: 40px 0 60px 0;
+	height: 100%;
+}
+.appcon-head {
+	padding-bottom: 17px;
+	margin-bottom: 17px;
+}
+.virtual-wait-room p a {
+	margin-top: 20px;
+	display: block;
+}
+.container.completed-questionnaire {
+	padding: 0 15px;
+}
+.completed-questionnaire h1 img {
+	max-width: 39px;
+}
+.questionary-right > h2 {
+	font-size: 28px;
+	line-height: 35px;
+	margin-bottom: 20px;
+}
+.question-compl-main > h3 {
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+.question-compl{
+	display: inline-block;
+	width: 100%;
+	padding: 20px;
+}
+.ques-left {
+	width: 100%;
+	padding: 0;
+}
+.question-compl .primary-btn {
+	min-width: 100%;
+	padding: 10px;
+	width: 100%;
+	line-height: 21px;
+	margin: 15px 0 0 0;
+}
+.completed-questionnaire h1{
+	display: inline-block !important;
+	width: 100%;
+	vertical-align: middle;
+}
+.booking-location-right {
+	margin-top: 10px;
+}
+.updated-arrow a .fas {
+	padding-right: 10px;
+}
+.booking-loc-main .completed-questionnaire h1 {
+	margin-top: 0;
+}
+.booking-info-main > h2 {
+	font-size: 28px;
+	line-height: 32px;
+	margin-bottom: 10px;
+}
+.booking-box > h3{
+	font-size: 20px;
+}
+.symp-timelines {
+	min-height: 100%;
+}
+}
+@media screen and (max-width: 479px) {
+.appcon-head h2{
+    max-width: 200px;
+}
+}
+@media screen and (max-width: 413px) {
+	#triage-details-popup .modal-title{
+		font-size: 30px;
+	}
+	#triage-details-popup .modal-content {
+		padding: 30px 20px 20px;
+	}
+	.triage-listing span{
+		font-size:17px;
+	}
+	.triage-listing input[type="text"]{
+		max-width: 210px;
+	}
+	.completed-questionnaire h1{
+		font-size: 39px !important;
+	}
+}

@@ -1,0 +1,489 @@
+/*** 21-9-20 added css start ***/
+.registration-link {
+  background-color: #d1d4e3;
+  border-radius: 12px;
+  text-align: center;
+  min-width: 156px;
+  display: inline-block;
+  padding: 4px 10px;
+}
+.registration-link span {
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 0.7px;
+  background: url(../images/version5-images/checkmark.svg) no-repeat left center;
+  padding: 5px 0 5px 20px;
+  font-family: "ProximaSoft-Regular";
+  color: rgba(56, 65, 124, 0.5);
+}
+.building-profile {
+  background: #ffffff;
+  box-shadow: 0px 0px 3px rgba(56, 65, 124, 0.2);
+  border-radius: 12px;
+  padding: 17px;
+  position: relative;
+  margin-top: 25px;
+}
+.close-building {
+  background: url(../images/version5-images/building-close.svg) no-repeat;
+  position: absolute;
+  right: 17px;
+  top: 17px;
+  width: 21px;
+  height: 21px;
+}
+.wait-info h3 {
+  background: url(../images/version5-images/wait-icon.svg) no-repeat;
+  font-size: 20px;
+  letter-spacing: -0.25px;
+  color: #343642;
+  padding-left: 30px;
+  line-height: 23px;
+  font-family: "EuclidFlex-Medium";
+}
+.wait-info {
+  margin-top: 20px;
+}
+.building-profile p {
+  color: #73799f;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: -0.25px;
+  margin-bottom: 20px;
+}
+.building-profile .primary-btn {
+  font-size: 18px;
+  padding: 12px;
+  height: auto;
+}
+.report-problem-main .questionsmark {
+  background: url(../images/version5-images/questionmark.svg) no-repeat left
+    center;
+  width: 24px;
+  display: inline-block;
+  height: 23px;
+  vertical-align: middle;
+}
+.report-problem-main .report-problem {
+  background: url(../images/version5-images/report-problem.svg) no-repeat left
+    center;
+  width: 27px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.report-problem-main li {
+  display: inline;
+  margin-left: 5px;
+}
+.report-problem-main li:first-child {
+  margin-left: 0;
+}
+.questionary-for span {
+  font-size: 10px;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+  color: rgba(52, 54, 66, 0.8);
+}
+.questionary-for p {
+  font-size: 19px;
+  line-height: 23px;
+  letter-spacing: -0.25px;
+  color: #343642;
+}
+.questinaries .visited-list {
+  background: #f8f8fd;
+  border: 1px solid #d1d4e3;
+  box-sizing: border-box;
+  border-radius: 11px;
+  box-shadow: none;
+  padding: 7px 10px;
+  margin-bottom: 22px;
+}
+.questionary-for h3 {
+  font-size: 19px;
+  margin: 0;
+}
+.questinaries .visited-list .profile {
+  height: 30px;
+  width: 30px;
+}
+.questionary-for {
+  padding-left: 10px;
+}
+.questinaries {
+  max-width: 214px;
+}
+.toplink {
+  background: #f8f8fd;
+  padding: 15px 0;
+}
+.toplink a,
+.updated-arrow a {
+  font-size: 17px;
+  line-height: 22px;
+  letter-spacing: 1.25px;
+  color: #000;
+  text-transform: uppercase;
+  font-family: "ProximaSoft-Regular";
+}
+.toplink a .fas,
+.updated-arrow a .fas {
+  color: #38417c;
+}
+.toplink a:hover,
+.toplink a:focus,
+.updated-arrow a:hover,
+.updated-arrow a:focus {
+  color: #38417c;
+}
+.app-confirmed h1,
+.completed-questionnaire h1 {
+  font-size: 55px;
+  line-height: 60px;
+}
+.app-confirmed .cancel-wrapper {
+  margin-bottom: 32px;
+}
+.app-con-right {
+  background: #ffffff;
+  box-shadow: 0px 0px 32px rgba(56, 65, 124, 0.3);
+  border-radius: 12px;
+  padding: 40px;
+}
+.covid-testing {
+  color: rgba(56, 65, 124, 0.8);
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: -0.25px;
+  margin-bottom: 8px;
+  display: block;
+}
+.appcon-head h2 {
+  font-family: "EuclidFlex-Medium";
+  font-size: 36px;
+  line-height: 38px;
+  letter-spacing: -0.9px;
+  color: #343642;
+  margin: 0;
+}
+.appcon-head {
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+}
+.app-con-right p {
+  font-size: 19px;
+  line-height: 23px;
+  letter-spacing: -0.25px;
+  color: #343642;
+  margin: 0;
+}
+.location-type {
+  margin: 35px 0 35px 0;
+}
+.app-con-right .primary-btn {
+  font-size: 18px;
+  letter-spacing: -0.25px;
+  height: auto;
+  padding: 19px 10px;
+  max-width: 100%;
+}
+.virtual-wait-room p {
+  padding-top: 15px;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000;
+}
+.location-type p {
+  font-family: "EuclidFlex-Medium";
+}
+.virtual-wait-room p a {
+  color: #000000;
+  text-decoration: underline;
+}
+.virtual-wait-room p a:hover,
+.virtual-wait-room p a:focus {
+  color: #343642;
+}
+.virtual-wait-room {
+  margin-bottom: 26px;
+}
+.triag-details-main > .btn {
+  width: 100%;
+  max-width: 100%;
+  background: #d1d4e3;
+  color: #343642;
+  border: 1px solid #d1d4e3;
+  font-family: "EuclidFlex-Medium";
+  font-size: 18px;
+  border-radius: 12px;
+}
+.triag-details-main > .btn:hover {
+  color: #343642;
+}
+.triag-details-main {
+  margin-bottom: 30px;
+}
+.add-calendar-cancel-appt .redbtn {
+  background: #ff5959;
+}
+.add-calendar-cancel-appt .redbtn:hover,
+.add-calendar-cancel-appt .redbtn:focus {
+  background: transparent;
+  color: #ff5959;
+  border: 1px solid #ff5959;
+}
+.add-calendar-cancel-appt {
+  display: inline-block;
+  vertical-align: middle;
+  width: calc(100% + 30px);
+  margin: 0 -15px;
+}
+.add-calendar-cancel-appt li {
+  float: left;
+  width: 50%;
+  padding: 0 15px;
+}
+.appointment .app-confirmed h1 br,
+.completed-questionnaire h1 br {
+  display: none;
+}
+.triage-listing span {
+  position: relative;
+  padding: 10px 0 10px 30px;
+  font-size: 19px;
+  color: #343642;
+  line-height: 23px;
+  letter-spacing: -0.25px;
+  font-family: "ProximaSoft-Regular";
+  display: table;
+}
+.triage-listing span:before {
+  background: url(../images/full-check-icon.svg) no-repeat left center;
+  background-size: 20px;
+  position: absolute;
+  left: 0;
+  top: 11px;
+  content: "";
+  width: 20px;
+  height: 20px;
+}
+.triage-listing {
+  margin-bottom: 13px;
+}
+#triage-details-popup .modal-content {
+  padding: 40px 30px 25px;
+}
+.triage-listing input[type="text"] {
+  background: #ffffff;
+  border: 2px solid #d1d4e3;
+  border-radius: 12px;
+  color: #38417c;
+  font-size: 14px;
+  display: block;
+  width: 100%;
+  max-width: 273px;
+  padding: 8px 15px;
+  margin: 10px 0 0 30px;
+  font-family: "ProximaSoft-Regular";
+}
+.triage-inner-listing {
+  background: #f8f8fd;
+  border: 1px solid #d1d4e3;
+  box-sizing: border-box;
+  border-radius: 11px;
+  padding: 10px 20px;
+}
+.triage-inner-listing .triage-listing span i {
+  font-size: 15px;
+  display: block;
+}
+.triage-inner-listing .triage-listing span:before {
+  background: url(../images/version5-images/checkmark-small.svg) no-repeat left
+    center;
+  height: 15px;
+  width: 15px;
+  top: 15px;
+}
+.triage-listing input[type="text"]:focus {
+  border: 2px solid #38417c;
+}
+.triage-inner-listing .triage-listing {
+  margin-bottom: -5px;
+}
+.one-month-ago {
+  background: #f8f8fd;
+  border: 1px solid #d1d4e3;
+  box-sizing: border-box;
+  border-radius: 11px;
+  font-size: 19px;
+  line-height: 23px;
+  letter-spacing: -0.25px;
+  color: #343642;
+  padding: 8px 20px;
+}
+.triage-listing:last-child {
+  margin-bottom: 0;
+}
+#triage-details-popup .modal-title {
+  margin-bottom: 25px;
+}
+#triage-details-popup.new-message-modal .close {
+  top: 30px;
+}
+/*** completed questionary css start ***/
+.completed-questionnaire h1 img {
+  max-width: 44px;
+  float: left;
+}
+.completed-questionnaire h1 span {
+  float: left;
+  padding-left: 10px;
+  width: calc(100% - 44px);
+}
+.questionary-right > h2 {
+  font-family: "EuclidFlex-Medium";
+  font-size: 36px;
+  line-height: 38px;
+  letter-spacing: -0.9px;
+  color: #343642;
+  margin-bottom: 28px;
+}
+.question-compl-main > h3 {
+  font-family: "EuclidFlex-Medium";
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: -0.25px;
+  color: #73799f;
+  margin-bottom: -5px;
+}
+.question-compl {
+  background: #f8f8fd;
+  box-shadow: 0px 0px 3px rgba(56, 65, 124, 0.2);
+  border-radius: 12px;
+  padding: 30px;
+  margin-top: 19px;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  width: 100%;
+  vertical-align: middle;
+  align-items: -moz-flex-end;
+  align-items: -webkit-flex-end;
+  align-items: -ms-flex-end;
+  align-items: flex-end;
+}
+.ques-left > h3 {
+  font-family: "EuclidFlex-Medium";
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: -0.25px;
+  color: #343642;
+}
+.ques-left p {
+  font-family: "ProximaSoft-Regular";
+  font-size: 19px;
+  line-height: 23px;
+  letter-spacing: -0.25px;
+  color: #343642;
+}
+.question-compl .primary-btn {
+  font-size: 18px;
+  min-width: 245px;
+  height: auto;
+  padding: 13px;
+}
+.ques-left {
+  float: left;
+  width: calc(100% - 255px);
+  padding-right: 10px;
+}
+.question-compl .primary-btn {
+  font-size: 18px;
+  min-width: 245px;
+  height: auto;
+  padding: 13px;
+  display: inline-block;
+  width: 245px;
+  margin-left: 10px;
+}
+.main-bg-sectoin.c-questionary-main {
+  padding-bottom: 60px;
+}
+.main-bg-sectoin.app-confirmed-main {
+  padding-bottom: 60px;
+  width: 100%;
+  padding: 120px 0 0 0;
+}
+.booking-loc-main {
+  padding-bottom: 60px;
+}
+.booking-loc-main .completed-questionnaire h1 br {
+  display: block;
+}
+.booking-info-main > h2 {
+  font-size: 36px;
+  line-height: 38px;
+  letter-spacing: -0.9px;
+  color: #343642;
+  font-family: "EuclidFlex-Medium";
+  margin-bottom: 0;
+}
+.booking-box {
+  background: #f8f8fd;
+  box-shadow: 0px 0px 3px rgba(56, 65, 124, 0.2);
+  border-radius: 8px;
+  padding: 30px 20px;
+  margin-top: 18px;
+}
+.booking-box > h3 {
+  font-family: "EuclidFlex-Medium";
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: -0.25px;
+  color: #343642;
+  margin: 0;
+}
+.booking-box > h3 span {
+  font-family: "ProximaSoft-Regular";
+  font-size: 19px;
+  line-height: 23px;
+  letter-spacing: -0.25px;
+  color: #73799f;
+  display: block;
+}
+.booking-info-main p {
+  font-family: "ProximaSoft-Regular";
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: -0.25px;
+  color: #73799f;
+}
+.booking-info-main {
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+}
+.booking-info-main:last-child {
+  border: 0;
+}
+.booking-loc-main .cancel-wrapper {
+  margin-bottom: 32px;
+}
+.app-confirmed h1.d-flex i {
+  font-style: normal;
+  display: table;
+}
+.symp-timelines {
+  padding: 0 0 40px !important;
+  min-height: 600px;
+}
+.symp-timelines .mt-5.s-toms {
+  width: 100% !important;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+}

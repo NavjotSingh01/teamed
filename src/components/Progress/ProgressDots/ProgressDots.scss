@@ -1,0 +1,76 @@
+@import '../../../assets/styles/_variables';
+
+.dot {
+  position: absolute;
+  top: -5px;
+  width: 13px;
+  height: 13px;
+  background-color: $color_white;
+  border-radius: 50%;
+  border: 3px solid $color_light_grey;
+
+  &.filled {
+    background-color: $color_blue;
+    border: 3px solid $color_blue;
+  }
+
+  &_authorized {
+    &_1 {
+      left: 0;
+    }
+
+    &_2 {
+      left: calc(25% - 6px);
+    }
+
+    &_3 {
+      left: calc(50% - 6px);
+    }
+
+    &_4 {
+      left: calc(75% - 6px);
+    }
+
+    &_5 {
+      left: calc(100% - 6px);
+    }
+  }
+
+  &__title {
+    position: absolute;
+    top: 17px;
+    display: inline-block;
+    transform: translateX(-50%);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.25px;
+    color: rgba($color_black, 0.3);
+
+    &.filled {
+      color: $color_blue;
+    }
+  }
+
+  &__title_authorized {
+    &_1 {
+      left: 0;
+    }
+
+    &_2 {
+      left: 25%;
+    }
+
+    &_3 {
+      left: 50%;
+    }
+
+    &_4 {
+      left: 75%;
+    }
+
+    &_5 {
+      left: 100%;
+    }
+  }
+}
